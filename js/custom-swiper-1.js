@@ -1,3 +1,37 @@
+const heroTitle = document.getElementById("hero-title");
+const heroSubtitle = document.getElementById("hero-subtitle");
+const heroDescription = document.getElementById("hero-description");
+const heroCopy = document.querySelector(".hero-banner-copy");
+const heroTags = document.getElementById("hero-tags");
+
+function updateHeroContent(activeIndex) {
+  const slide = document.querySelector(
+    `.swiper-slide[data-swiper-slide-index="${activeIndex}"]`
+  ) || document.querySelectorAll(".swiper-slide")[activeIndex];
+
+  if (!slide || !heroTitle || !heroSubtitle || !heroDescription) return;
+
+  heroCopy && heroCopy.classList.add("is-changing");
+  heroTags && heroTags.classList.add("is-changing");
+
+  window.setTimeout(() => {
+    heroTitle.textContent = slide.dataset.title || "";
+    heroSubtitle.textContent = slide.dataset.subtitle || "";
+    heroDescription.textContent = slide.dataset.description || "";
+
+    if (heroTags && slide.dataset.tags) {
+      slide.dataset.tags.split("|").forEach((tag, index) => {
+        if (heroTags.children[index]) {
+          heroTags.children[index].textContent = tag;
+        }
+      });
+    }
+
+    heroCopy && heroCopy.classList.remove("is-changing");
+    heroTags && heroTags.classList.remove("is-changing");
+  }, 350);
+}
+
 const swiper = new Swiper('.swiper', {
   autoplay: {
     delay: 4000,
@@ -30,5 +64,13 @@ const swiper = new Swiper('.swiper', {
   pagination: {
     el: false,
     clickable: false,
+  },
+  on: {
+    init: function () {
+      updateHeroContent(this.realIndex);
+    },
+    slideChangeTransitionStart: function () {
+      updateHeroContent(this.realIndex);
+    },
   },
 });
