@@ -346,6 +346,10 @@
            margin:30,
            nav:false,
            dots:false,
+           autoplay:true,
+           autoplayTimeout:2500,
+           autoplayHoverPause:true,
+           smartSpeed:900,
            responsive:{
                1000:{
                    items:4
