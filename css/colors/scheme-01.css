@@ -1,6 +1,12 @@
 :root {
-  --primary-color: #805231;
-  --primary-color-rgb: 128, 82, 49;
-  --secondary-color: #805231;
-  --secondary-color-rgb: 128, 82, 49;
+  --primary-color: #CCA669;
+  --primary-color-rgb: 204, 166, 105;
+  --primary-color-2: #997945;
+  --primary-color-2-rgb: 153, 121, 69;
+  --secondary-color: #997945;
+  --secondary-color-rgb: 153, 121, 69;
+  --tertiary-color: #0D2738;
+  --tertiary-color-rgb: 13, 39, 56;
+  --quaternary-color: #0D2738;
+  --quaternary-color-rgb: 13, 39, 56;
 }

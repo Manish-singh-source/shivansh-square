@@ -15,6 +15,8 @@ $(document).ready(function(){
 
         var name          = $('input[name="name"]').val();
         var email         = $('input[name="email"]').val();
+        var phone         = $('input[name="phone"]').val();
+        var city          = $('input[name="city"]').val();
         var project_type  = $('select[name="project_type"]').val();
         var property_size = $('select[name="property_size"]').val();
         var design_style  = $('select[name="design_style"]').val();
@@ -31,6 +33,16 @@ $(document).ready(function(){
         if(email.length == 0 || email.indexOf('@') == -1){
             error = true;
             $('input[name="email"]').addClass("error_input");
+        }
+
+        if(phone.length == 0){
+            error = true;
+            $('input[name="phone"]').addClass("error_input");
+        }
+
+        if(city.length == 0){
+            error = true;
+            $('input[name="city"]').addClass("error_input");
         }
 
         if(project_type.length == 0){
@@ -84,7 +96,7 @@ $(document).ready(function(){
                         // Reset button
                         $('#send_message')
                             .removeAttr('disabled')
-                            .val('Get Free Estimate');
+                            .val('Request Consultation');
 
                     }else{
 
@@ -95,7 +107,7 @@ $(document).ready(function(){
                         // Re-enable button
                         $('#send_message')
                             .removeAttr('disabled')
-                            .val('Get Free Estimate');
+                            .val('Request Consultation');
                     }
 
                 }
@@ -107,7 +119,7 @@ $(document).ready(function(){
 
                 $('#send_message')
                     .removeAttr('disabled')
-                    .val('Get Free Estimate');
+                    .val('Request Consultation');
             });
         }
 
