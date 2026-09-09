@@ -42,26 +42,38 @@ $(document).ready(function() {
                 'value': 'Sending...'
             });
 
-            $.post("contact-3.html", $("#contact_form").serialize(), function(result) {
-                if (result.trim() === 'sent') {
-                    // Success message
-                    $('#contact_form').fadeOut(400, function() {
-                        $('<div id="success_message" class="alert alert-success mt-3">Your message has been sent successfully!</div>')
-                            .hide()
-                            .appendTo($(this).parent())
-                            .fadeIn(500);
-                    });
-                } else {
-                    // Failure message
-                    if (!$('#mail_fail').length) {
-                        $('<div id="mail_fail" class="alert alert-danger mt-3">Message failed to send. Please try again.</div>')
-                            .hide()
-                            .appendTo($('#contact_form').parent())
-                            .fadeIn(500);
+            $.ajax({
+                type: 'POST',
+                url: 'mail.php',
+                data: $("#contact_form").serialize(),
+                timeout: 30000,
+                success: function(result) {
+                    if (result.trim() === 'sent') {
+                        $('#contact_form').fadeOut(400, function() {
+                            $('<div id="success_message" class="alert alert-success mt-3">Your message has been sent successfully!</div>')
+                                .hide()
+                                .appendTo($(this).parent())
+                                .fadeIn(500);
+                        });
+                    } else {
+                        showContactFormError();
                     }
-                    $('#send_message').removeAttr('disabled').attr('value', 'Send Message');
+                },
+                error: function() {
+                    showContactFormError();
                 }
             });
         }
     });
+
+    function showContactFormError() {
+        if (!$('#mail_fail').length) {
+            $('<div id="mail_fail" class="alert alert-danger mt-3">Message failed to send. Please make sure the website is running on a PHP-enabled server and try again.</div>')
+                .hide()
+                .appendTo($('#contact_form').parent())
+                .fadeIn(500);
+        }
+
+        $('#send_message').removeAttr('disabled').attr('value', 'Send Message');
+    }
 });

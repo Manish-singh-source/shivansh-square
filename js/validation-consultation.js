@@ -79,50 +79,39 @@ $(document).ready(function(){
                 .val('Sending...');
 
             // Send AJAX request
-            $.post(
-                "action-consultation.html",
-                $("#interior-estimator-form").serialize(),
-                function(result){
-
+            $.ajax({
+                type: 'POST',
+                url: 'mail.php',
+                data: $("#interior-estimator-form").serialize(),
+                timeout: 30000,
+                success: function(result){
                     if(result.trim() == 'sent'){
-
-                        // Show success message
                         $('#success_message').fadeIn(500);
                         $('#error_message').hide();
-
-                        // Reset form
                         $('#interior-estimator-form')[0].reset();
-
-                        // Reset button
-                        $('#send_message')
-                            .removeAttr('disabled')
-                            .val('Request Consultation');
-
+                        resetConsultationButton();
                     }else{
-
-                        // Show error message
-                        $('#error_message').fadeIn(500);
-                        $('#success_message').hide();
-
-                        // Re-enable button
-                        $('#send_message')
-                            .removeAttr('disabled')
-                            .val('Request Consultation');
+                        showConsultationFormError();
                     }
-
+                },
+                error: function(){
+                    showConsultationFormError();
                 }
-            ).fail(function(){
-
-                // Handle AJAX failure
-                $('#error_message').fadeIn(500);
-                $('#success_message').hide();
-
-                $('#send_message')
-                    .removeAttr('disabled')
-                    .val('Request Consultation');
             });
         }
 
     });
+
+    function showConsultationFormError(){
+        $('#error_message').fadeIn(500);
+        $('#success_message').hide();
+        resetConsultationButton();
+    }
+
+    function resetConsultationButton(){
+        $('#send_message')
+            .removeAttr('disabled')
+            .val('Request Consultation');
+    }
 
 });
