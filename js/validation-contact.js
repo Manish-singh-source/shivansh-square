@@ -37,6 +37,11 @@ $(document).ready(function() {
 
         // Process the form if no error
         if (!error) {
+            if (window.location.port === '5500' || window.location.protocol === 'file:') {
+                showContactFormError('This form must be tested on PHP hosting, XAMPP/WAMP, or PHP local server. VS Code Live Server cannot send email.');
+                return;
+            }
+
             $('#send_message').attr({
                 'disabled': true,
                 'value': 'Sending...'
@@ -66,12 +71,15 @@ $(document).ready(function() {
         }
     });
 
-    function showContactFormError() {
+    function showContactFormError(message) {
         if (!$('#mail_fail').length) {
-            $('<div id="mail_fail" class="alert alert-danger mt-3">Message failed to send. Please make sure the website is running on a PHP-enabled server and try again.</div>')
+            $('<div id="mail_fail" class="alert alert-danger mt-3"></div>')
+                .text(message || 'Message failed to send. Please make sure the website is running on a PHP-enabled server and try again.')
                 .hide()
                 .appendTo($('#contact_form').parent())
                 .fadeIn(500);
+        } else if (message) {
+            $('#mail_fail').text(message);
         }
 
         $('#send_message').removeAttr('disabled').attr('value', 'Send Message');

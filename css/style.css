@@ -11341,3 +11341,209 @@ margin-left: auto;
 width: auto;
 }
 }
+
+/* Mobile header/menu fix: keep brand visible and align dropdown under the bar. */
+@media only screen and (max-width: 992px) {
+  header.site-sticky-header,
+  header.site-sticky-header.fixed,
+  header.header-mobile.site-sticky-header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    min-height: 64px;
+    padding: 0 !important;
+    background: #ffffff !important;
+    overflow: hidden;
+    box-shadow: 0 8px 26px rgba(13, 39, 56, .12);
+  }
+
+  header.site-sticky-header .container,
+  header.header-mobile .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  header.site-sticky-header .de-flex,
+  header.header-mobile .de-flex {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    min-height: 64px;
+    padding-top: 0 !important;
+  }
+
+  header.site-sticky-header .de-flex-col,
+  header.header-mobile .de-flex-col {
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  header.site-sticky-header .header-col-mid,
+  header.header-mobile .header-col-mid {
+    position: static !important;
+    width: auto !important;
+    padding: 0 !important;
+  }
+
+  header.site-sticky-header #logo,
+  header.header-mobile #logo,
+  header.site-sticky-header #logo a,
+  header.header-mobile #logo a {
+    display: flex !important;
+    align-items: center !important;
+    height: 64px !important;
+    line-height: 1 !important;
+  }
+
+  header.site-sticky-header .logo-main.brand-logo-img,
+  header.site-sticky-header .logo-scroll.brand-logo-img,
+  header.header-mobile .logo-main.brand-logo-img,
+  header.header-mobile .logo-scroll.brand-logo-img {
+    display: none !important;
+  }
+
+  header.site-sticky-header .logo-mobile.brand-logo-img,
+  header.header-mobile .logo-mobile.brand-logo-img {
+    display: block !important;
+    width: 142px !important;
+    max-width: calc(100vw - 104px) !important;
+    max-height: 44px !important;
+    object-fit: contain;
+  }
+
+  header.site-sticky-header .menu_side_area,
+  header.header-mobile .menu_side_area {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    width: auto !important;
+    margin-left: 0 !important;
+    position: static !important;
+    text-align: right !important;
+  }
+
+  header.site-sticky-header .menu_side_area .btn-main,
+  header.header-mobile .menu_side_area .btn-main,
+  header.site-sticky-header #btn-extra,
+  header.header-mobile #btn-extra {
+    display: none !important;
+  }
+
+  header.site-sticky-header #menu-btn,
+  header.header-mobile #menu-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    float: none !important;
+    width: 44px !important;
+    height: 44px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #0D2738 !important;
+    background: transparent !important;
+    cursor: pointer;
+    position: relative !important;
+    z-index: 1002 !important;
+  }
+
+  header.site-sticky-header #menu-btn:before,
+  header.header-mobile #menu-btn:before {
+    font-size: 22px !important;
+    line-height: 1 !important;
+  }
+
+  header.site-sticky-header #mainmenu,
+  header.header-mobile #mainmenu,
+  .header-col-mid #mainmenu {
+    position: absolute !important;
+    top: 64px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: calc(100vh - 64px) !important;
+    margin: 0 !important;
+    padding: 8px 16px 28px !important;
+    background: #0D2738 !important;
+    overflow-y: auto !important;
+    z-index: 1001 !important;
+  }
+
+  header.site-sticky-header #mainmenu li,
+  header.header-mobile #mainmenu li {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .14) !important;
+  }
+
+  header.site-sticky-header #mainmenu li:last-child,
+  header.header-mobile #mainmenu li:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  header.site-sticky-header #mainmenu a.menu-item,
+  header.header-mobile #mainmenu a.menu-item {
+    display: block !important;
+    width: 100% !important;
+    padding: 14px 0 !important;
+    color: #ffffff !important;
+    text-align: left !important;
+    font-size: 15px !important;
+    line-height: 1.25 !important;
+  }
+}
+
+/* All pages mobile fixed-header offset. */
+@media only screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  main {
+    padding-top: 64px !important;
+  }
+
+  #subheader {
+    padding: 56px 0 64px 0 !important;
+    min-height: 320px;
+  }
+
+  #subheader h1:not(.cam-style) {
+    font-size: clamp(38px, 11vw, 48px) !important;
+    line-height: .92 !important;
+    margin: 0 0 18px 0 !important;
+    word-break: normal;
+    overflow-wrap: anywhere;
+  }
+
+  #subheader .crumb,
+  #subheader p {
+    position: relative;
+    z-index: 2;
+  }
+
+  #section-intro {
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    padding-top: 64px !important;
+  }
+
+  #subheader {
+    padding: 48px 0 56px 0 !important;
+    min-height: 320px;
+  }
+
+  #subheader h1:not(.cam-style) {
+    font-size: clamp(34px, 10.5vw, 42px) !important;
+    line-height: .95 !important;
+  }
+}

@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 $smtpConfig = require __DIR__ . '/mail-config.php';
+$mailError = '';
 
 function clean_text(string $value): string
 {
@@ -23,8 +24,14 @@ function is_ajax_request(): bool
 
 function finish(bool $sent): void
 {
+    global $mailError;
+
     if (is_ajax_request()) {
         header('Content-Type: text/plain; charset=UTF-8');
+        if (!$sent && isset($_GET['debug']) && $_GET['debug'] === '1') {
+            echo 'failed: ' . $mailError;
+            exit;
+        }
         echo $sent ? 'sent' : 'failed';
         exit;
     }
@@ -33,6 +40,14 @@ function finish(bool $sent): void
     $separator = strpos($target, '?') !== false ? '&' : '?';
     header('Location: ' . $target . $separator . 'mail=' . ($sent ? 'sent' : 'failed'));
     exit;
+}
+
+function mail_log_error(string $message): void
+{
+    global $mailError;
+
+    $mailError = $message;
+    error_log('[' . date('Y-m-d H:i:s') . '] ' . $message . PHP_EOL, 3, __DIR__ . '/mail-error.log');
 }
 
 function smtp_read($socket): string
@@ -55,13 +70,38 @@ function smtp_command($socket, string $command, array $expectedCodes): bool
     $response = smtp_read($socket);
     $code = (int) substr($response, 0, 3);
 
-    return in_array($code, $expectedCodes, true);
+    if (!in_array($code, $expectedCodes, true)) {
+        mail_log_error('SMTP command failed. Expected ' . implode('/', $expectedCodes) . ', got ' . trim($response));
+        return false;
+    }
+
+    return true;
 }
 
 function smtp_send(array $config, string $to, string $subject, string $body, array $headers): bool
 {
+    if (smtp_send_once($config, $to, $subject, $body, $headers)) {
+        return true;
+    }
+
+    if (!isset($config['fallback_port'], $config['fallback_encryption'])) {
+        return false;
+    }
+
+    $fallbackConfig = $config;
+    $fallbackConfig['port'] = $config['fallback_port'];
+    $fallbackConfig['encryption'] = $config['fallback_encryption'];
+
+    return smtp_send_once($fallbackConfig, $to, $subject, $body, $headers);
+}
+
+function smtp_send_once(array $config, string $to, string $subject, string $body, array $headers): bool
+{
+    $encryption = $config['encryption'] ?? 'tls';
+    $transport = $encryption === 'ssl' ? 'ssl://' : 'tcp://';
+
     $socket = stream_socket_client(
-        'ssl://' . $config['host'] . ':' . $config['port'],
+        $transport . $config['host'] . ':' . $config['port'],
         $errno,
         $errstr,
         10,
@@ -69,19 +109,44 @@ function smtp_send(array $config, string $to, string $subject, string $body, arr
     );
 
     if (!$socket) {
+        mail_log_error('SMTP connection failed on port ' . $config['port'] . ': ' . $errstr . ' (' . $errno . ')');
         return false;
     }
 
     stream_set_timeout($socket, 10);
 
     if ((int) substr(smtp_read($socket), 0, 3) !== 220) {
+        mail_log_error('SMTP server did not return ready response on port ' . $config['port']);
         fclose($socket);
         return false;
     }
 
     $hostName = $_SERVER['HTTP_HOST'] ?? 'localhost';
+
+    if (!smtp_command($socket, 'EHLO ' . $hostName, [250])) {
+        fclose($socket);
+        return false;
+    }
+
+    if ($encryption === 'tls') {
+        if (!smtp_command($socket, 'STARTTLS', [220])) {
+            fclose($socket);
+            return false;
+        }
+
+        if (!stream_socket_enable_crypto($socket, true, STREAM_CRYPTO_METHOD_TLS_CLIENT)) {
+            mail_log_error('Could not enable TLS for SMTP connection.');
+            fclose($socket);
+            return false;
+        }
+
+        if (!smtp_command($socket, 'EHLO ' . $hostName, [250])) {
+            fclose($socket);
+            return false;
+        }
+    }
+
     $commands = [
-        ['EHLO ' . $hostName, [250]],
         ['AUTH LOGIN', [334]],
         [base64_encode($config['username']), [334]],
         [base64_encode($config['password']), [235]],
@@ -108,6 +173,10 @@ function smtp_send(array $config, string $to, string $subject, string $body, arr
 
     fwrite($socket, $message . "\r\n.\r\n");
     $sent = (int) substr(smtp_read($socket), 0, 3) === 250;
+
+    if (!$sent) {
+        mail_log_error('SMTP DATA was not accepted.');
+    }
 
     smtp_command($socket, 'QUIT', [221]);
     fclose($socket);

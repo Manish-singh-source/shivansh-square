@@ -72,6 +72,10 @@ $(document).ready(function(){
 
         // Proceed if no error
         if(error == false){
+            if (window.location.port === '5500' || window.location.protocol === 'file:') {
+                showConsultationFormError('This form must be tested on PHP hosting, XAMPP/WAMP, or PHP local server. VS Code Live Server cannot send email.');
+                return;
+            }
 
             // Disable button and show loading text
             $('#send_message')
@@ -102,7 +106,10 @@ $(document).ready(function(){
 
     });
 
-    function showConsultationFormError(){
+    function showConsultationFormError(message){
+        if (message) {
+            $('#error_message').text(message);
+        }
         $('#error_message').fadeIn(500);
         $('#success_message').hide();
         resetConsultationButton();

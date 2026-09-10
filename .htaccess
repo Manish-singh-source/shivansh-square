@@ -1,3 +1,7 @@
 <Files "mail-config.php">
     Require all denied
 </Files>
+
+<Files "mail-error.log">
+    Require all denied
+</Files>
