@@ -11547,3 +11547,38 @@ width: auto;
     line-height: .95 !important;
   }
 }
+
+/* Homepage local video sizing. */
+.homepage-video-section {
+  background: #0D2738;
+}
+
+.homepage-video-section .container-fluid,
+.homepage-video-section .row,
+.homepage-video-section .col-lg-12,
+.homepage-video-section .relative {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.homepage-video-section__video {
+  display: block;
+  width: 100%;
+  height: clamp(360px, 48vw, 620px) !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .homepage-video-section__video {
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .homepage-video-section__video {
+    aspect-ratio: 4 / 5;
+  }
+}
