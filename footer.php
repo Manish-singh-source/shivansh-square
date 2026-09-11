@@ -25,12 +25,10 @@
       <div class="site-footer__links">
         <h3>Services</h3>
         <ul>
-          <li><a href="services.php">Interiors</a></li>
-          <li><a href="services.php">Security Systems</a></li>
-          <li><a href="services.php">Fire-Fighting</a></li>
-          <li><a href="services.php">HVAC & Air-Conditioning</a></li>
-          <li><a href="services.php">Electricals & Networking</a></li>
-          <li><a href="services.php">Work Stations</a></li>
+          <li><a href="service-full-home-interior.php">Full Home Interior</a></li>
+          <li><a href="service-commercial-project.php">Commercial Project</a></li>
+          <li><a href="service-renovation.php">Renovation</a></li>
+          <li><a href="service-designing-work.php">Designing Work</a></li>        
         </ul>
       </div>
       <div class="site-footer__contact">

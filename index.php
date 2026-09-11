@@ -215,7 +215,25 @@
         }
       }
     </style>
-  </head>
+      <style>
+      .service-showcase-card { background:#fff; border:1px solid rgba(13,39,56,.10); border-radius:4px; overflow:hidden; box-shadow:0 14px 36px rgba(13,39,56,.07); height:100%; transition:transform .25s ease, box-shadow .25s ease; }
+      .service-showcase-card:hover { transform:translateY(-4px); box-shadow:0 20px 48px rgba(13,39,56,.12); }
+      .service-showcase-card__link { display:block; height:100%; color:#101820; text-decoration:none; background:#fff; }
+      .service-showcase-card__media { aspect-ratio: 4 / 2.7; overflow:hidden; background:#f4f1ec; }
+      .service-showcase-card__media img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .45s ease; }
+      .service-showcase-card:hover .service-showcase-card__media img { transform:scale(1.05); }
+      .service-showcase-card__body { padding:24px 26px 26px; }
+      .service-showcase-card__body h3 { font-size:22px; line-height:1.2; margin:0 0 8px; color:#050505; font-weight:700; }
+      .service-showcase-card__body p { font-size:18px; line-height:1.45; color:#777; margin:0 0 18px; }
+      .service-showcase-card__body span { display:inline-flex; align-items:center; gap:8px; color:#7b0012; font-size:17px; font-weight:700; }
+      @media only screen and (max-width: 767px) {
+        .service-showcase-card__body { padding:18px 18px 20px; }
+        .service-showcase-card__body h3 { font-size:20px; }
+        .service-showcase-card__body p { font-size:15px; }
+        .service-showcase-card__body span { font-size:15px; }
+      }
+    </style>
+</head>
 
   <body>
     <?php include __DIR__ . '/header.php'; ?>
@@ -485,7 +503,7 @@
           <div class="row mb-3 g-4 align-items-center justify-content-between">
             <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
               <div class="subtitle">Our Services</div>
-              <h2 class="wow fadeInRight">INTERIOR & MEP SOLUTIONS</h2>
+              <h2 class="wow fadeInRight">INTERIOR SERVICES</h2>
             </div>
 
             <div class="col-lg-4">
@@ -519,739 +537,59 @@
                 data-wow-delay=".2s"
               >
                 <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-interior-design-solutions.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Interior Design Solutions
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/7.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Interior design solutions"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
+                  <div class="service-showcase-card hover">
+                    <a href="service-full-home-interior.php" class="service-showcase-card__link">
+                      <div class="service-showcase-card__media">
+                        <img src="images/projects-wide/1.webp" alt="Full home interior by Shivansh Square" />
+                      </div>
+                      <div class="service-showcase-card__body">
+                        <h3>Full Home Interior</h3>
+                        <p>Complete turnkey interior solutions for your dream home</p>
+                        <span>View Projects <i class="fa-solid fa-arrow-right"></i></span>
+                      </div>
+                    </a>
                   </div>
                 </div>
-
                 <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-security-systems-integration.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Security Systems Integration
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/8.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Security systems integration"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
+                  <div class="service-showcase-card hover">
+                    <a href="service-commercial-project.php" class="service-showcase-card__link">
+                      <div class="service-showcase-card__media">
+                        <img src="images/projects-wide/4.webp" alt="Commercial interior project by Shivansh Square" />
+                      </div>
+                      <div class="service-showcase-card__body">
+                        <h3>Commercial Project</h3>
+                        <p>Offices, showrooms, restaurants and retail spaces</p>
+                        <span>View Projects <i class="fa-solid fa-arrow-right"></i></span>
+                      </div>
+                    </a>
                   </div>
                 </div>
-
                 <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-fire-fighting-systems.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Fire-Fighting Systems
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/9.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Fire fighting systems"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
+                  <div class="service-showcase-card hover">
+                    <a href="service-renovation.php" class="service-showcase-card__link">
+                      <div class="service-showcase-card__media">
+                        <img src="images/projects-wide/2.webp" alt="Interior renovation by Shivansh Square" />
+                      </div>
+                      <div class="service-showcase-card__body">
+                        <h3>Renovation</h3>
+                        <p>Expert solutions to upgrade and transform your space</p>
+                        <span>View Projects <i class="fa-solid fa-arrow-right"></i></span>
+                      </div>
+                    </a>
                   </div>
                 </div>
-
                 <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-soft-seating-solutions.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Soft Seating Solutions
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/26.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Soft seating solutions"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-civil-interior-works.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Civil Interior Works
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/10.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Civil interior works"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-air-conditioning-systems.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Air-Conditioning Systems
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/11.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Air conditioning systems"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-ups-power-backup.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">UPS Power Backup</h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/12.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="UPS power backup"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-acoustic-panel-installation.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Acoustic Panel Installation
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/13.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Acoustic panel installation"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-networking-infrastructure.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Networking Infrastructure
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/14.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Networking infrastructure"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-electrical-works.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">Electrical Works</h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/15.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Electrical works"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-precision-air-conditioning-pac.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Precision Air Conditioning PAC
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/16.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Precision air conditioning PAC"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-premium-flooring-works.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Premium Flooring Works
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/17.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Premium flooring works"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a href="project-single.php" class="d-block hover relative text-light">
-                        <img src="images/misc/up-right-arrow.webp" class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1" alt="" />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">Disaster Recovery DR Rooms</h2>
-                        </div>
-                        <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
-                          <img src="images/services/19.png" class="w-100 hover-scale-1-2" alt="Disaster recovery DR rooms" />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div> -->
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-audio-video-solutions.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Audio-Video Solutions
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/18.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Audio video solutions"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-plumbing-services.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">Plumbing Services</h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/19.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Plumbing services"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-modular-work-stations.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Modular Work Stations
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/20.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Modular work stations"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-access-control-systems.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Access Control Systems
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/21.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Access control systems"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-hvac-design-installation.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            HVAC Design & Installation
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/27.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="HVAC design and installation"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-building-management-systems-bms.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Building Management Systems BMS
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/21.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Building management systems BMS"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-office-chairs-seating.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Office Chairs & Seating
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/22.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Office chairs and seating"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-de-mountable-partitions.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            De-Mountable Partitions
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/23.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="De-mountable partitions"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-fire-alarm-public-address-fapa.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Fire Alarm & Public Address FAPA
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/24.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Fire alarm and public address FAPA"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="hover">
-                    <div class="relative overflow-hidden">
-                      <a
-                        href="service-lighting-control-systems.php"
-                        class="d-block hover relative text-light"
-                      >
-                        <img
-                          src="images/misc/up-right-arrow.webp"
-                          class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1"
-                          alt=""
-                        />
-                        <div class="abs z-4 p-4 pb-0 bottom-0 mb-0">
-                          <h2 class="service-card-title">
-                            Lighting Control Systems
-                          </h2>
-                        </div>
-                        <div
-                          class="relative overflow-hidden rounded-1 wow scaleIn"
-                          data-wow-duration="1.5s"
-                        >
-                          <img
-                            src="images/services/25.png"
-                            class="w-100 hover-scale-1-2"
-                            alt="Lighting control systems"
-                          />
-                        </div>
-                        <div class="gradient-edge-bottom h-70"></div>
-                      </a>
-                    </div>
+                  <div class="service-showcase-card hover">
+                    <a href="service-designing-work.php" class="service-showcase-card__link">
+                      <div class="service-showcase-card__media">
+                        <img src="images/projects-wide/3.webp" alt="Designing work and modular kitchen by Shivansh Square" />
+                      </div>
+                      <div class="service-showcase-card__body">
+                        <h3>Designing Work</h3>
+                        <p>Custom furniture, modular kitchens and creative designs</p>
+                        <span>View Projects <i class="fa-solid fa-arrow-right"></i></span>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -2191,105 +1529,10 @@
         <h4 class="mb-3">Our Services</h4>
 
         <ul class="ul-check">
-          <li>
-            <a href="service-interior-design-solutions.php"
-              >Interior Design Solutions</a
-            >
-          </li>
-          <li>
-            <a href="service-security-systems-integration.php"
-              >Security Systems Integration</a
-            >
-          </li>
-          <li>
-            <a href="service-fire-fighting-systems.php"
-              >Fire-Fighting Systems</a
-            >
-          </li>
-          <li>
-            <a href="service-soft-seating-solutions.php"
-              >Soft Seating Solutions</a
-            >
-          </li>
-          <li>
-            <a href="service-civil-interior-works.php">Civil Interior Works</a>
-          </li>
-          <li>
-            <a href="service-air-conditioning-systems.php"
-              >Air-Conditioning Systems</a
-            >
-          </li>
-          <li><a href="service-ups-power-backup.php">UPS Power Backup</a></li>
-          <li>
-            <a href="service-acoustic-panel-installation.php"
-              >Acoustic Panel Installation</a
-            >
-          </li>
-          <li>
-            <a href="service-networking-infrastructure.php"
-              >Networking Infrastructure</a
-            >
-          </li>
-          <li><a href="service-electrical-works.php">Electrical Works</a></li>
-          <li>
-            <a href="service-precision-air-conditioning-pac.php"
-              >Precision Air Conditioning PAC</a
-            >
-          </li>
-          <li>
-            <a href="service-premium-flooring-works.php"
-              >Premium Flooring Works</a
-            >
-          </li>
-          <!-- <li><a href="services.php">Disaster Recovery DR Rooms</a></li> -->
-          <li>
-            <a href="service-audio-video-solutions.php"
-              >Audio-Video Solutions</a
-            >
-          </li>
-          <li>
-            <a href="service-plumbing-services.php">Plumbing Services</a>
-          </li>
-          <li>
-            <a href="service-modular-work-stations.php"
-              >Modular Work Stations</a
-            >
-          </li>
-          <li>
-            <a href="service-access-control-systems.php"
-              >Access Control Systems</a
-            >
-          </li>
-          <li>
-            <a href="service-hvac-design-installation.php"
-              >HVAC Design & Installation</a
-            >
-          </li>
-          <li>
-            <a href="service-building-management-systems-bms.php"
-              >Building Management Systems BMS</a
-            >
-          </li>
-          <li>
-            <a href="service-office-chairs-seating.php"
-              >Office Chairs & Seating</a
-            >
-          </li>
-          <li>
-            <a href="service-de-mountable-partitions.php"
-              >De-Mountable Partitions</a
-            >
-          </li>
-          <li>
-            <a href="service-fire-alarm-public-address-fapa.php"
-              >Fire Alarm & Public Address FAPA</a
-            >
-          </li>
-          <li>
-            <a href="service-lighting-control-systems.php"
-              >Lighting Control Systems</a
-            >
-          </li>
+          <li><a href="service-full-home-interior.php">Full Home Interior</a></li>
+          <li><a href="service-commercial-project.php">Commercial Project</a></li>
+          <li><a href="service-renovation.php">Renovation</a></li>
+          <li><a href="service-designing-work.php">Designing Work</a></li>        
         </ul>
 
         <div class="spacer-30-line"></div>

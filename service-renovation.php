@@ -1,21 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Precision Air Conditioning PAC | Shivansh Square</title>
+    <title>Renovation | Shivansh Square</title>
     <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16" />
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Precision Air Conditioning PAC by Shivansh Square. Precision air conditioning solutions for IT rooms, technical areas, equipment-heavy spaces, and controlled commercial environments. Request a quote for professional interior design, turnkey fit-out, MEP, HVAC, furniture, and workspace solutions." name="description" />
-    <meta content="Precision Air Conditioning PAC, Precision Cooling, Shivansh Square, interior design services, turnkey fit-out services, commercial interiors, office interiors, residential interiors" name="keywords" />
+    <meta content="Renovation by Shivansh Square. Upgrade existing homes and commercial spaces with smarter layouts, fresher finishes, and better usability." name="description" />
+    <meta content="Renovation, Shivansh Square, interior services, turnkey interiors, renovation, commercial interiors, designing work" name="keywords" />
     <meta content="Shivansh Square" name="author" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
     <link href="css/plugins.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Precision Air Conditioning PAC","provider":{"@type":"Organization","name":"Shivansh Square"},"serviceType":"Precision Cooling","description":"Precision air conditioning solutions for IT rooms, technical areas, equipment-heavy spaces, and controlled commercial environments.","areaServed":"India"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Renovation","provider":{"@type":"Organization","name":"Shivansh Square"},"serviceType":"Interior Services","description":"Upgrade existing homes and commercial spaces with smarter layouts, fresher finishes, and better usability. Renovation solutions for old homes, offices, wardrobes, kitchens, ceilings, partitions, flooring, lighting, and finish upgrades.","areaServed":"India"}</script>
     <style>
-        :root { --service-accent: #426f88; }
+        :root { --service-accent: #CCA669; --service-bronze: #997945; --service-navy: #0D2738; }
         .service-page { background: #FAF8F4; color: #0D2738; }
         .service-hero { position: relative; min-height: 78vh; display: flex; align-items: end; overflow: hidden; }
         .service-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -26,7 +26,7 @@
         .service-hero p { font-size: 19px; line-height: 1.8; max-width: 760px; }
         .service-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 30px; }
         .service-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 24px; background: var(--service-accent); color: var(--service-navy); font-weight: 700; text-decoration: none; }
-        .service-btn--ghost { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.35); }
+        .service-btn--ghost { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.35); color:#fff; }
         .service-section { padding: 90px 0; }
         .service-section h2 { font-size: clamp(32px, 4vw, 52px); line-height: 1.08; margin-bottom: 20px; }
         .service-panel { background: #fff; padding: 34px; box-shadow: 0 24px 70px rgba(13, 39, 56, .10); border-top: 4px solid var(--service-accent); height: 100%; }
@@ -35,23 +35,10 @@
         .service-step { display: flex; gap: 18px; padding: 22px 0; border-bottom: 1px solid rgba(13,39,56,.14); }
         .service-step span { color: var(--service-bronze); font-size: 28px; font-weight: 800; min-width: 48px; }
         .service-step p { margin: 0; font-size: 17px; }
-        .service-page--v2 .service-hero:after { background: linear-gradient(180deg, rgba(13, 39, 56, .28), rgba(13, 39, 56, .9)); }
-        .service-page--v2 .service-hero__content { margin-left: auto; text-align: right; }
-        .service-page--v3 .service-hero { align-items: center; }
-        .service-page--v3 .service-hero:after { background: linear-gradient(120deg, rgba(13, 39, 56, .88), rgba(13, 39, 56, .22)); }
-        .service-page--v4 .service-section { background: #fff; }
-        .service-page--v4 .service-panel { background: #F3EEE6; }
-        @media only screen and (max-width: 767px) {
-            .service-hero { min-height: 72vh; }
-            .service-hero__content { padding: 135px 0 64px; }
-            .service-hero h1 { font-size: 38px; }
-            .service-hero p { font-size: 16px; }
-            .service-page--v2 .service-hero__content { text-align: left; }
-            .service-section { padding: 64px 0; }
-        }
+        @media only screen and (max-width: 767px) { .service-hero { min-height: 72vh; } .service-hero__content { padding: 135px 0 64px; } .service-hero h1 { font-size: 38px; } .service-hero p { font-size: 16px; } .service-section { padding: 64px 0; } }
     </style>
 </head>
-<body class="service-page service-page--v3">
+<body class="service-page">
     <?php include __DIR__ . '/header.php'; ?>
     <script src="js/site-layout.js"></script>
 
@@ -60,12 +47,12 @@
         <div id="de-loader"></div>
 
         <section class="service-hero">
-            <img src="https://cftime.io/wp-content/uploads/2024/06/image-12-1024x576.png" alt="Precision Air Conditioning PAC by Shivansh Square" />
+            <img src="images/projects-wide/2.webp" alt="Interior renovation by Shivansh Square" />
             <div class="container">
                 <div class="service-hero__content">
-                    <div class="service-kicker">Precision Cooling</div>
-                    <h1>Precision Air Conditioning PAC</h1>
-                    <p>Precision air conditioning solutions for IT rooms, technical areas, equipment-heavy spaces, and controlled commercial environments.</p>
+                    <div class="service-kicker">Renovation</div>
+                    <h1>Renovation</h1>
+                    <p>Upgrade existing homes and commercial spaces with smarter layouts, fresher finishes, and better usability.</p>
                     <div class="service-actions">
                         <a class="service-btn" href="consultation.php">Request A Quote</a>
                         <a class="service-btn service-btn--ghost" href="contact.php">Contact Us</a>
@@ -78,17 +65,17 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">
-                        <div class="subtitle">Why This Service Matters</div>
-                        <h2>Planned for better design, smoother execution, and long-term value</h2>
-                        <p>Every precision air conditioning pac project is handled with a practical understanding of design, site conditions, timelines, vendor coordination, and finish quality. The result is a cleaner process and a space that works well after handover.</p>
+                        <div class="subtitle">What We Do</div>
+                        <h2>Planned carefully, finished cleanly, and built around your space</h2>
+                        <p>Renovation solutions for old homes, offices, wardrobes, kitchens, ceilings, partitions, flooring, lighting, and finish upgrades.</p>
                     </div>
                     <div class="col-lg-6">
                         <div class="service-panel">
                             <h3>What We Cover</h3>
                             <ul>
-                            <li>PAC planning for technical and IT spaces</li>
-                            <li>Temperature-control focused system coordination</li>
-                            <li>Integration with power, networking, and interior works</li>
+                            <li>Existing space assessment and practical upgrade planning</li>
+                            <li>Demolition, repair, carpentry, finishes, and fixture coordination</li>
+                            <li>Modernized layouts that improve comfort, storage, and appearance</li>
                             </ul>
                         </div>
                     </div>
@@ -104,18 +91,17 @@
                         <h2>Clear steps from requirement to handover</h2>
                     </div>
                     <div class="col-lg-7">
-                        
                         <div class="service-step">
                             <span>01</span>
-                            <p>Thermal load and equipment review</p>
+                            <p>Current site review and renovation scope mapping</p>
                         </div>
                         <div class="service-step">
                             <span>02</span>
-                            <p>PAC system and routing coordination</p>
+                            <p>Upgrade plan, material selection, costing, and timeline</p>
                         </div>
                         <div class="service-step">
                             <span>03</span>
-                            <p>Installation support with performance checks</p>
+                            <p>Execution, finishing, cleanup, and handover</p>
                         </div>
                     </div>
                 </div>

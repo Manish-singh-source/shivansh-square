@@ -432,36 +432,10 @@
         <h4 class="mb-3">Our Services</h4>
 
         <ul class="ul-check">
-          <li>
-            <a href="service-interior-design-solutions.php"
-              >Residential Interior Design</a
-            >
-          </li>
-          <li>
-            <a href="service-civil-interior-works.php"
-              >Commercial Interior Fit-Outs</a
-            >
-          </li>
-          <li>
-            <a href="service-modular-work-stations.php"
-              >Office Interiors & Work Stations</a
-            >
-          </li>
-          <li>
-            <a href="service-civil-interior-works.php"
-              >Civil, Electrical & HVAC Works</a
-            >
-          </li>
-          <li>
-            <a href="service-security-systems-integration.php"
-              >Security, Networking & Access Control</a
-            >
-          </li>
-          <li>
-            <a href="service-lighting-control-systems.php"
-              >Lighting, Acoustic & Furniture Solutions</a
-            >
-          </li>
+                    <li><a href="service-full-home-interior.php">Full Home Interior</a></li>
+                    <li><a href="service-commercial-project.php">Commercial Project</a></li>
+                    <li><a href="service-renovation.php">Renovation</a></li>
+                    <li><a href="service-designing-work.php">Designing Work</a></li>                
         </ul>
 
         <div class="spacer-30-line"></div>

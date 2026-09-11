@@ -419,12 +419,10 @@
                 <h4 class="mb-3">Our Services</h4>
 
                 <ul class="ul-check">
-                    <li><a href="services.php">Residential Interior Design</a></li>
-                    <li><a href="services.php">Office Interior Design</a></li>
-                    <li><a href="services.php">Civil Interior Works</a></li>
-                    <li><a href="services.php">Modular Workstations</a></li>
-                    <li><a href="services.php">Lighting & Electrical Works</a></li>
-                    <li><a href="services.php">Turnkey Project Execution</a></li>
+                    <li><a href="service-full-home-interior.php">Full Home Interior</a></li>
+                    <li><a href="service-commercial-project.php">Commercial Project</a></li>
+                    <li><a href="service-renovation.php">Renovation</a></li>
+                    <li><a href="service-designing-work.php">Designing Work</a></li>                
                 </ul>
 
 

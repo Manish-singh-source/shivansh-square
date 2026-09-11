@@ -279,12 +279,10 @@
                 <h4 class="mb-3">Our Services</h4>
 
                 <ul class="ul-check">
-                    <li><a href="services.php">Furniture & Decor Selection</a></li>
-                    <li><a href="services.php">Concept Development</a></li>
-                    <li><a href="services.php">Renovation & Space Planning</a></li>
-                    <li><a href="services.php">Visual Design Rendering</a></li>
-                    <li><a href="services.php">Residential Interior Design</a></li>
-                    <li><a href="services.php">Commercial Interior Design</a></li>
+                    <li><a href="service-full-home-interior.php">Full Home Interior</a></li>
+                    <li><a href="service-commercial-project.php">Commercial Project</a></li>
+                    <li><a href="service-renovation.php">Renovation</a></li>
+                    <li><a href="service-designing-work.php">Designing Work</a></li>                
                 </ul>
 
 
