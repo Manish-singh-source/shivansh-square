@@ -54,8 +54,8 @@
   }
   function renderLayout() {
     injectBrandOverrides();
-    loadPartial('site-header', 'header.html');
-    loadPartial('site-footer', 'footer.html');
+    loadPartial('site-header', 'header.php');
+    loadPartial('site-footer', 'footer.php');
   }
 
   renderLayout();

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Our Services | Interior Design, Turnkey Fit-Out & MEP Solutions</title>
+    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Explore Shivansh Square services including interior design, turnkey fit-outs, civil works, electricals, HVAC, security systems, networking, workstations, furniture, flooring, lighting, acoustic panels, and commercial workspace solutions." name="description" >
+    <meta content="Shivansh Square services, interior design services, turnkey fit-out services, commercial interiors, office interiors, civil interior works, HVAC design, electrical works, security systems, networking infrastructure, modular workstations" name="keywords" >
+    <meta content="Shivansh Square" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <?php include __DIR__ . '/header.php'; ?>
+    <script src="js/site-layout.js"></script>
+        
+        <!-- content begin -->
+        <main>
+
+            <a href="#" id="back-to-top"></a>
+                    
+            <!-- page preloader begin -->
+            <div id="de-loader"></div>
+            <!-- page preloader close -->
+
+            <section class="bg-dark text-light relative jarallax">
+                <img src="images/background/2.webp" class="jarallax-img" alt="">
+                <div class="container relative z-2">
+                    <div class="row gy-4 gx-5 align-items-center">
+                        <div class="col-md-8">
+                            <div class="spacer-double sm-hide"></div>
+                            <h1 class="mb-3 wow fadeInUp" data-wow-delay=".2s">Interior Design & Turnkey Fit-Out Services</h1>
+                            <ul class="crumb wow fadeInUp">
+                                <li><a href="index.php">Home</a></li>
+                                <li class="active">Interior Design Services</li>
+                            </ul>   
+                        </div>
+                        <div class="col-md-4">
+                            <p class="mb-0 wow fadeInRight" data-wow-delay=".2s">
+                                Shivansh Square delivers complete residential, commercial, and office interior solutions with civil works, MEP, HVAC, electricals, security, networking, furniture, lighting, and workstation execution.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gradient-edge-bottom h-50 op-6"></div>
+                <div class="sw-overlay op-5"></div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row mb-4 g-4 align-items-end justify-content-between">
+                        <div class="col-lg-7">
+                            <div class="subtitle">Our Services</div>
+                            <h2>Complete Interior, MEP, HVAC, Security, and Workspace Solutions</h2>
+                        </div>
+                        <div class="col-lg-5">
+                            <p class="mb-0">From design planning to on-site execution, Shivansh Square manages every detail needed to create practical, polished, and future-ready interiors for homes, offices, and commercial properties.</p>
+                        </div>
+                    </div>
+                    <div class="row g-4">
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-interior-design-solutions.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/7.png" class="w-100 hover-scale-1-2" alt="Interior design solutions by Shivansh Square">
+                                </a>
+                            </div>
+                            <h3>Interior Design Solutions</h3>
+                            <p class="mb-0">Creative residential, commercial, and office interior design focused on space planning, materials, lighting, furniture, finishes, and daily functionality.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-security-systems-integration.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/8.png" class="w-100 hover-scale-1-2" alt="Security systems integration for interiors">
+                                </a>
+                            </div>
+                            <h3>Security Systems Integration</h3>
+                            <p class="mb-0">Integrated CCTV, surveillance, access, and safety systems planned around the layout and operational needs of your property.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-fire-fighting-systems.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/9.png" class="w-100 hover-scale-1-2" alt="Fire-fighting system design and installation">
+                                </a>
+                            </div>
+                            <h3>Fire-Fighting Systems</h3>
+                            <p class="mb-0">Fire safety and fire-fighting system planning, installation, and coordination for compliant residential, office, and commercial interiors.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-soft-seating-solutions.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/26.png" class="w-100 hover-scale-1-2" alt="Soft seating solutions for office and commercial interiors">
+                                </a>
+                            </div>
+                            <h3>Soft Seating Solutions</h3>
+                            <p class="mb-0">Comfortable sofas, lounge seating, visitor seating, and collaborative furniture selected to match the design language of the space.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-civil-interior-works.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/10.png" class="w-100 hover-scale-1-2" alt="Civil interior works and turnkey fit-out execution">
+                                </a>
+                            </div>
+                            <h3>Civil Interior Works</h3>
+                            <p class="mb-0">Partitioning, false ceilings, flooring preparation, wall finishes, carpentry coordination, and site execution for turnkey interiors.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-air-conditioning-systems.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/11.png" class="w-100 hover-scale-1-2" alt="Air-conditioning systems for interior projects">
+                                </a>
+                            </div>
+                            <h3>Air-Conditioning Systems</h3>
+                            <p class="mb-0">Efficient air-conditioning solutions planned for comfort, performance, ventilation, and clean integration with the interior layout.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-ups-power-backup.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/12.png" class="w-100 hover-scale-1-2" alt="UPS power backup solutions for commercial interiors">
+                                </a>
+                            </div>
+                            <h3>UPS Power Backup</h3>
+                            <p class="mb-0">Reliable UPS and power backup planning for offices, IT rooms, workstations, and business-critical interior environments.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-acoustic-panel-installation.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/13.png" class="w-100 hover-scale-1-2" alt="Acoustic panel installation for interiors">
+                                </a>
+                            </div>
+                            <h3>Acoustic Panel Installation</h3>
+                            <p class="mb-0">Acoustic wall and ceiling solutions that reduce noise, improve focus, and support meeting rooms, studios, cabins, and offices.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-networking-infrastructure.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/14.png" class="w-100 hover-scale-1-2" alt="Networking infrastructure for office interiors">
+                                </a>
+                            </div>
+                            <h3>Networking Infrastructure</h3>
+                            <p class="mb-0">Structured cabling, data points, server room coordination, and network-ready infrastructure for modern office interiors.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-electrical-works.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/15.png" class="w-100 hover-scale-1-2" alt="Electrical works for turnkey interiors">
+                                </a>
+                            </div>
+                            <h3>Electrical Works</h3>
+                            <p class="mb-0">Electrical planning, wiring, fixtures, power points, panels, and execution coordinated with interior design and site needs.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-precision-air-conditioning-pac.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/16.png" class="w-100 hover-scale-1-2" alt="Precision air conditioning PAC solutions">
+                                </a>
+                            </div>
+                            <h3>Precision Air Conditioning PAC</h3>
+                            <p class="mb-0">Precision air-conditioning solutions for equipment-heavy rooms, technical spaces, IT zones, and controlled environments.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-premium-flooring-works.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/17.png" class="w-100 hover-scale-1-2" alt="Premium flooring works for interior design projects">
+                                </a>
+                            </div>
+                            <h3>Premium Flooring Works</h3>
+                            <p class="mb-0">Durable and elegant flooring solutions including tiles, vinyl, wooden finishes, carpet, and commercial flooring systems.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-audio-video-solutions.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/18.png" class="w-100 hover-scale-1-2" alt="Audio-video solutions for offices and commercial spaces">
+                                </a>
+                            </div>
+                            <h3>Audio-Video Solutions</h3>
+                            <p class="mb-0">AV planning and installation for meeting rooms, conference areas, collaboration zones, public address, and display systems.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-plumbing-services.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/19.png" class="w-100 hover-scale-1-2" alt="Plumbing services for interior fit-out projects">
+                                </a>
+                            </div>
+                            <h3>Plumbing Services</h3>
+                            <p class="mb-0">Plumbing coordination for pantries, washrooms, utility zones, commercial spaces, and interior renovation projects.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-modular-work-stations.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/20.png" class="w-100 hover-scale-1-2" alt="Modular work stations for office interiors">
+                                </a>
+                            </div>
+                            <h3>Modular Work Stations</h3>
+                            <p class="mb-0">Ergonomic workstations, modular desks, storage, partitions, and office furniture systems for productive work environments.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-access-control-systems.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/21.png" class="w-100 hover-scale-1-2" alt="Access control systems for commercial interiors">
+                                </a>
+                            </div>
+                            <h3>Access Control Systems</h3>
+                            <p class="mb-0">Secure entry, door access, attendance integration, and controlled movement solutions for offices and commercial facilities.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-hvac-design-installation.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/27.png" class="w-100 hover-scale-1-2" alt="HVAC design and installation for interior projects">
+                                </a>
+                            </div>
+                            <h3>HVAC Design & Installation</h3>
+                            <p class="mb-0">HVAC planning, ducting, installation, and coordination for efficient climate control across office and commercial interiors.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-building-management-systems-bms.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/21.png" class="w-100 hover-scale-1-2" alt="Building management systems BMS for commercial spaces">
+                                </a>
+                            </div>
+                            <h3>Building Management Systems BMS</h3>
+                            <p class="mb-0">Smart building management system coordination for monitoring, automation, energy control, and integrated facility operations.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-office-chairs-seating.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/22.png" class="w-100 hover-scale-1-2" alt="Office chairs and ergonomic seating solutions">
+                                </a>
+                            </div>
+                            <h3>Office Chairs & Seating</h3>
+                            <p class="mb-0">Ergonomic task chairs, executive seating, visitor chairs, lounge seating, and office seating solutions for lasting comfort.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-de-mountable-partitions.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/23.png" class="w-100 hover-scale-1-2" alt="De-mountable partitions for office interiors">
+                                </a>
+                            </div>
+                            <h3>De-Mountable Partitions</h3>
+                            <p class="mb-0">Flexible glass, modular, and de-mountable partition systems for offices that need adaptable cabins and work zones.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-fire-alarm-public-address-fapa.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/24.png" class="w-100 hover-scale-1-2" alt="Fire alarm and public address FAPA systems">
+                                </a>
+                            </div>
+                            <h3>Fire Alarm & Public Address FAPA</h3>
+                            <p class="mb-0">Fire alarm and public address systems planned with safety requirements, building layouts, and commercial compliance needs.</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="hover rounded-1 overflow-hidden relative mb-4">
+                                <a href="service-lighting-control-systems.php">
+                                    <div class="sw-overlay z-2 op-3"></div>
+                                    <img src="images/services/25.png" class="w-100 hover-scale-1-2" alt="Lighting control systems for smart interiors">
+                                </a>
+                            </div>
+                            <h3>Lighting Control Systems</h3>
+                            <p class="mb-0">Smart lighting controls, scene-based lighting, automation, and energy-efficient lighting systems for premium interiors.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <!-- content close -->
+
+        <!-- overlay content begin -->
+        <div id="extra-wrap" class="bg-dark text-light">
+            <div id="btn-close">
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="extra-content">
+                <div class="brand-text-logo brand-text-logo--overlay">Shivansh Square</div>
+
+                <div class="spacer-30-line"></div>
+
+                <h4 class="mb-3">Featured Interior Projects</h4>
+
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="hover">
+                            <div class="relative overflow-hidden">
+                                <a href="project-single.php" class="d-block hover relative text-light">
+                                    <img src="images/misc/up-right-arrow.webp" class="abs w-40 p-4 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                    <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                        <img src="images/projects-wide/1.webp" class="w-100 hover-scale-1-2" alt="Residential interior design project by Shivansh Square">
+                                    </div>
+                                    <div class="gradient-edge-top op-5 h-70"></div>
+                                </a>
+                            </div>
+                        </div>                            
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hover">
+                            <div class="relative overflow-hidden">
+                                <a href="project-single.php" class="d-block hover relative text-light">
+                                    <img src="images/misc/up-right-arrow.webp" class="abs w-40 p-4 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                    <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                        <img src="images/projects-wide/2.webp" class="w-100 hover-scale-1-2" alt="Commercial interior fit-out project by Shivansh Square">
+                                    </div>
+                                    <div class="gradient-edge-top op-5 h-70"></div>
+                                </a>
+                            </div>
+                        </div>                            
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hover">
+                            <div class="relative overflow-hidden">
+                                <a href="project-single.php" class="d-block hover relative text-light">
+                                    <img src="images/misc/up-right-arrow.webp" class="abs w-40 p-4 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                    <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                        <img src="images/projects-wide/3.webp" class="w-100 hover-scale-1-2" alt="Office interior and workspace project by Shivansh Square">
+                                    </div>
+                                    <div class="gradient-edge-top op-5 h-70"></div>
+                                </a>
+                            </div>
+                        </div>                            
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hover">
+                            <div class="relative overflow-hidden">
+                                <a href="project-single.php" class="d-block hover relative text-light">
+                                    <img src="images/misc/up-right-arrow.webp" class="abs w-40 p-4 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                    <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                        <img src="images/projects-wide/4.webp" class="w-100 hover-scale-1-2" alt="Turnkey interior execution project by Shivansh Square">
+                                    </div>
+                                    <div class="gradient-edge-top op-5 h-70"></div>
+                                </a>
+                            </div>
+                        </div>                            
+                    </div>
+
+
+                </div>
+
+                <div class="spacer-30-line"></div>
+
+                <h4 class="mb-3">Our Services</h4>
+
+                <ul class="ul-check">
+                    <li><a href="service-interior-design-solutions.php">Interior Design Solutions</a></li>
+                    <li><a href="service-civil-interior-works.php">Civil Interior Works</a></li>
+                    <li><a href="service-electrical-works.php">Electrical Works</a></li>
+                    <li><a href="service-hvac-design-installation.php">HVAC Design & Installation</a></li>
+                    <li><a href="service-security-systems-integration.php">Security Systems Integration</a></li>
+                    <li><a href="service-modular-work-stations.php">Modular Work Stations</a></li>
+                </ul>
+
+
+                <div class="spacer-30-line"></div>
+
+                <h4>Contact Us</h4>
+                <div><i class="icofont-clock-time me-2 id-color"></i>Monday - Saturday 08.00 - 18.00</div>
+                <div><i class="icofont-phone me-2 id-color"></i><a href="tel:+919967064755">+91 99670 64755</a></div>
+
+                <div class="spacer-30-line"></div>
+
+                <h4>About Us</h4>
+                <p>Shivansh Square delivers interior design, turnkey fit-outs, civil works, MEP, HVAC, security, networking, furniture, lighting, and workspace solutions for residential, commercial, and office projects.</p>
+
+                <!--
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                -->
+            </div>
+        </div>
+        <!-- overlay content end -->
+    <?php include __DIR__ . '/footer.php'; ?>
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/vendors.js"></script>
+    <script src="js/designesia.js"></script>
+    
+
+</body>
+
+
+</html>

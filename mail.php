@@ -36,7 +36,7 @@ function finish(bool $sent): void
         exit;
     }
 
-    $target = $_SERVER['HTTP_REFERER'] ?? 'index.html';
+    $target = $_SERVER['HTTP_REFERER'] ?? 'index.php';
     $separator = strpos($target, '?') !== false ? '&' : '?';
     header('Location: ' . $target . $separator . 'mail=' . ($sent ? 'sent' : 'failed'));
     exit;

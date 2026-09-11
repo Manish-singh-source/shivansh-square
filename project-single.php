@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Intrio — Interior Design Website Template</title>
+    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Intrio — Interior Design Website Template" name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="project-page">
+    <?php include __DIR__ . '/header.php'; ?>
+    <script src="js/site-layout.js"></script>
+        
+        <!-- content begin -->
+        <main>
+
+            <a href="#" id="back-to-top"></a>
+                    
+            <!-- page preloader begin -->
+            <div id="de-loader"></div>
+            <!-- page preloader close -->
+
+            <section id="section-intro" class="section-dark text-light no-top no-bottom position-relative overflow-hidden z-4 jarallax">\
+                <img src="images/slider/1.webp" class="jarallax-img" alt="">
+                <div class="mh-800 relative z-4">
+                    <div class="spacer-double"></div>
+                    <div class="spacer-double"></div>
+                    <div class="spacer-single sm-hide"></div>
+                    <div class="container relative z-2">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <p>We design refined interiors that blend comfort and style, creating spaces that feel inviting and functional while reflecting your personality with thoughtful details and timeless elegance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="abs w-80 abs-center bottom-10 z-2 w-100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10">
+                                    <h1 class="fs-sm-10vw mb-0 wow fadeInLeft">Modern Minimalist Living Room</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sw-overlay op-4"></div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row g-4 gx-5 justify-content-end">
+                        <div class="col-md-6">
+                            <div class="h-100 relative">
+                                <div class="subtitle">Project Details</div>
+                                <h2 class="fs-36 wow fadeInRight" data-wow-delay=".2s">Ad pariatur incididunt exercitation nulla voluptate aliquip incididunt do ut nostrud non duis anim mollit eiusmod incididunt ut.</h2>
+
+                                <div class="abs pos-sm-relative w-100 bottom-0">
+                                    <div class="d-flex justify-content-between border-bottom p-2">
+                                        <div>Client</div>
+                                        <div class="">Envato Corps</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between border-bottom p-2">
+                                        <div>Budget</div>
+                                        <div class="">50K - 100K</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between border-bottom p-2">
+                                        <div>Services</div>
+                                        <div class="">Residential Interior Design</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between border-bottom p-2">
+                                        <div>Year</div>
+                                        <div class="">2020</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="relative wow zoomIn overflow-hidden rounded-1">
+                                <img src="images/misc/s1.webp" class="w-100 rounded-1 wow scaleIn" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spacer-single"></div>
+
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <a href="images/misc/l1.webp" class="image-popup d-block hover">
+                                <div class="relative overflow-hidden rounded-1">
+                                    <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                        View
+                                    </div>
+                                    <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
+                                    <img src="images/misc/l1.webp" class="w-100 hover-scale-1-2" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="images/misc/l2.webp" class="image-popup d-block hover">
+                                <div class="relative overflow-hidden rounded-1">
+                                    <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                        View
+                                    </div>
+                                    <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
+                                    <img src="images/misc/l2.webp" class="w-100 hover-scale-1-2" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="images/misc/l3.webp" class="image-popup d-block hover">
+                                <div class="relative overflow-hidden rounded-1">
+                                    <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                        View
+                                    </div>
+                                    <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
+                                    <img src="images/misc/l3.webp" class="w-100 hover-scale-1-2" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-color-op-1">
+                <div class="container">
+                    <div class="row g-4 gx-5 justify-content-between align-items-center">
+                        <div class="col-md-6">
+                            <div class="h-100 relative">
+                                <div class="subtitle">Project Details</div>
+                                <h2 class="wow fadeInRight" data-wow-delay=".2s">Related Projects</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="relative">
+                                <div class="de-custom-nav d-flex flex-end" data-target="#projects-carousel">
+                                    <div class="d-prev circle"></div>
+                                    <div class="d-next circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-lg-12">
+                            <div id="projects-carousel" class="owl-carousel owl-theme owl-2-cols">
+                                <div class="item">
+                                    <div class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <a href="project-single.php" class="d-block hover relative text-light">
+                                                <img src="images/misc/up-right-arrow.webp" class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                                <div class="abs w-50 z-4 p-4 mb-0">
+                                                    <h2 class="fs-36">Modern Minimalist Living Room</h2>
+                                                </div>
+                                                <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                                    <img src="images/projects-wide/1.webp" class="w-100 hover-scale-1-2" alt="">
+                                                </div>
+                                                <div class="gradient-edge-top op-5 h-70"></div>
+                                                <div class="extra-text abs lh-1 m-4 bottom-0 z-4 d-flex">
+                                                    <div class="bg-blur p-2 me-2">Private Residence</div>
+                                                    <div class="bg-blur p-2 me-2">Open Space</div>
+                                                    <div class="bg-blur p-2 me-2">Contemporary</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>                            
+                                </div>
+
+                                <div class="item">
+                                    <div class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <a href="project-single.php" class="d-block hover relative text-light">
+                                                <img src="images/misc/up-right-arrow.webp" class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                                <div class="abs w-50 z-4 p-4 mb-0">
+                                                    <h2 class="fs-36">Luxury Contemporary Bedroom Suite</h2>
+                                                </div>
+                                                <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                                    <img src="images/projects-wide/2.webp" class="w-100 hover-scale-1-2" alt="">
+                                                </div>
+                                                <div class="gradient-edge-top op-5 h-70"></div>
+                                                <div class="extra-text abs lh-1 m-4 bottom-0 z-4 d-flex">
+                                                    <div class="bg-blur p-2 me-2">Master Suite</div>
+                                                    <div class="bg-blur p-2 me-2">Luxury</div>
+                                                    <div class="bg-blur p-2 me-2">Soft Lighting</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>                            
+                                </div>
+
+                                <div class="item">
+                                    <div class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <a href="project-single.php" class="d-block hover relative text-light">
+                                                <img src="images/misc/up-right-arrow.webp" class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                                <div class="abs w-50 z-4 p-4 mb-0">
+                                                    <h2 class="fs-36">Scandinavian Inspired Kitchen Design</h2>
+                                                </div>
+                                                <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                                    <img src="images/projects-wide/3.webp" class="w-100 hover-scale-1-2" alt="">
+                                                </div>
+                                                <div class="gradient-edge-top op-5 h-70"></div>
+                                                <div class="extra-text abs lh-1 m-4 bottom-0 z-4 d-flex">
+                                                    <div class="bg-blur p-2 me-2">Kitchen</div>
+                                                    <div class="bg-blur p-2 me-2">Nordic Style</div>
+                                                    <div class="bg-blur p-2 me-2">Minimalist</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>                            
+                                </div>
+
+                                <div class="item">
+                                    <div class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <a href="project-single.php" class="d-block hover relative text-light">
+                                                <img src="images/misc/up-right-arrow.webp" class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                                <div class="abs w-50 z-4 p-4 mb-0">
+                                                    <h2 class="fs-36">Elegant Home Office Workspace</h2>
+                                                </div>
+                                                <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                                    <img src="images/projects-wide/4.webp" class="w-100 hover-scale-1-2" alt="">
+                                                </div>
+                                                <div class="gradient-edge-top op-5 h-70"></div>
+                                                <div class="extra-text abs lh-1 m-4 bottom-0 z-4 d-flex">
+                                                    <div class="bg-blur p-2 me-2">Home Office</div>
+                                                    <div class="bg-blur p-2 me-2">Productivity</div>
+                                                    <div class="bg-blur p-2 me-2">Modern</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>                            
+                                </div>
+
+                                <div class="item">
+                                    <div class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <a href="project-single.php" class="d-block hover relative text-light">
+                                                <img src="images/misc/up-right-arrow.webp" class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                                <div class="abs w-50 z-4 p-4 mb-0">
+                                                    <h2 class="fs-36">Warm Rustic Dining Room Concept</h2>
+                                                </div>
+                                                <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                                    <img src="images/projects-wide/5.webp" class="w-100 hover-scale-1-2" alt="">
+                                                </div>
+                                                <div class="gradient-edge-top op-5 h-70"></div>
+                                                <div class="extra-text abs lh-1 m-4 bottom-0 z-4 d-flex">
+                                                    <div class="bg-blur p-2 me-2">Dining Area</div>
+                                                    <div class="bg-blur p-2 me-2">Rustic</div>
+                                                    <div class="bg-blur p-2 me-2">Natural Wood</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>                            
+                                </div>
+
+                                <div class="item">
+                                    <div class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <a href="project-single.php" class="d-block hover relative text-light">
+                                                <img src="images/misc/up-right-arrow.webp" class="abs w-80px p-20 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                                <div class="abs w-50 z-4 p-4 mb-0">
+                                                    <h2 class="fs-36">Luxury Bathroom With Marble Finish</h2>
+                                                </div>
+                                                <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                                    <img src="images/projects-wide/6.webp" class="w-100 hover-scale-1-2" alt="">
+                                                </div>
+                                                <div class="gradient-edge-top op-5 h-70"></div>
+                                                <div class="extra-text abs lh-1 m-4 bottom-0 z-4 d-flex">
+                                                    <div class="bg-blur p-2 me-2">Bathroom</div>
+                                                    <div class="bg-blur p-2 me-2">Marble</div>
+                                                    <div class="bg-blur p-2 me-2">Premium Finish</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>                            
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <!-- content close -->
+
+        <!-- overlay content begin -->
+        <div id="extra-wrap" class="bg-dark text-light">
+            <div id="btn-close">
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="extra-content">
+                <div class="brand-text-logo brand-text-logo--overlay">Shivansh Square</div>
+
+                <div class="spacer-30-line"></div>
+
+                <h4 class="mb-3">Latest Projects</h4>
+
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="hover">
+                            <div class="relative overflow-hidden">
+                                <a href="project-single.php" class="d-block hover relative text-light">
+                                    <img src="images/misc/up-right-arrow.webp" class="abs w-40 p-4 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                    <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                        <img src="images/projects-wide/1.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                    <div class="gradient-edge-top op-5 h-70"></div>
+                                </a>
+                            </div>
+                        </div>                            
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hover">
+                            <div class="relative overflow-hidden">
+                                <a href="project-single.php" class="d-block hover relative text-light">
+                                    <img src="images/misc/up-right-arrow.webp" class="abs w-40 p-4 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                    <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                        <img src="images/projects-wide/2.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                    <div class="gradient-edge-top op-5 h-70"></div>
+                                </a>
+                            </div>
+                        </div>                            
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hover">
+                            <div class="relative overflow-hidden">
+                                <a href="project-single.php" class="d-block hover relative text-light">
+                                    <img src="images/misc/up-right-arrow.webp" class="abs w-40 p-4 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                    <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                        <img src="images/projects-wide/3.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                    <div class="gradient-edge-top op-5 h-70"></div>
+                                </a>
+                            </div>
+                        </div>                            
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hover">
+                            <div class="relative overflow-hidden">
+                                <a href="project-single.php" class="d-block hover relative text-light">
+                                    <img src="images/misc/up-right-arrow.webp" class="abs w-40 p-4 z-2 top-0 end-0 p-4 hover-op-1" alt="">
+                                    <div class="relative overflow-hidden rounded-1 wow scaleIn" data-wow-duration="1.5s">
+                                        <img src="images/projects-wide/4.webp" class="w-100 hover-scale-1-2" alt="">
+                                    </div>
+                                    <div class="gradient-edge-top op-5 h-70"></div>
+                                </a>
+                            </div>
+                        </div>                            
+                    </div>
+
+
+                </div>
+
+                <div class="spacer-30-line"></div>
+
+                <h4 class="mb-3">Our Services</h4>
+
+                <ul class="ul-check">
+                    <li><a href="services.php">Furniture & Decor Selection</a></li>
+                    <li><a href="services.php">Concept Development</a></li>
+                    <li><a href="services.php">Renovation & Space Planning</a></li>
+                    <li><a href="services.php">Visual Design Rendering</a></li>
+                    <li><a href="services.php">Residential Interior Design</a></li>
+                    <li><a href="services.php">Commercial Interior Design</a></li>
+                </ul>
+
+
+                <div class="spacer-30-line"></div>
+
+                <h4>Contact Us</h4>
+                <div><i class="icofont-clock-time me-2 id-color"></i>Monday - Saturday 08.00 - 18.00</div>
+                <div><i class="icofont-phone me-2 id-color"></i><a href="tel:+919967064755">+91 99670 64755</a></div>
+
+                <div class="spacer-30-line"></div>
+
+                <h4>About Us</h4>
+                <p>Transform your home, office, or commercial space with professional interior design services tailored to your vision and lifestyle. Our experienced designers create customized interiors, from concept development to final styling, ensuring every space reflects beauty, functionality, and attention to detail.</p>
+
+                <!--
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                -->
+            </div>
+        </div>
+        <!-- overlay content end -->
+    <?php include __DIR__ . '/footer.php'; ?>
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/vendors.js"></script>
+    <script src="js/designesia.js"></script>
+    
+
+</body>
+
+
+</html>
+
