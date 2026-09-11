@@ -321,6 +321,55 @@
            }
         });
 
+
+
+        jQuery(".design-ideas-carousel").owlCarousel({
+           center:false,
+           loop:true,
+           margin:24,
+           nav:false,
+           dots:false,
+           autoplay:true,
+           autoplayTimeout:2400,
+           autoplayHoverPause:true,
+           smartSpeed:750,
+           responsive:{
+               1200:{
+                   items:6
+               },
+               992:{
+                   items:4
+               },
+               600:{
+                   items:3
+               },
+               0:{
+                   items:1
+               }
+           }
+        });
+        jQuery(".projects-carousel-3").owlCarousel({
+           center:false,
+           loop:true,
+           margin:30,
+           nav:false,
+           dots:false,
+           autoplay:true,
+           autoplayTimeout:3000,
+           autoplayHoverPause:true,
+           smartSpeed:700,
+           responsive:{
+               1000:{
+                   items:3
+               },
+               600:{
+                   items:2
+               },
+               0:{
+                   items:1
+               }
+           }
+        });
         jQuery(".owl-4-cols").owlCarousel({
            center:false,
            loop:true,
@@ -772,7 +821,11 @@
            $('.timer').each(function count(options) {
              vCount = '1';
              const $this = $(this);
-             options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+             options = $.extend({
+               formatter: function (value, options) {
+                 return value.toFixed(options.decimals).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+               }
+             }, options || {}, $this.data('countToOptions') || {});
              $this.countTo(options);
            });
          }

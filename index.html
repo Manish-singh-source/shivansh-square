@@ -30,6 +30,191 @@
       rel="stylesheet"
       type="text/css"
     />
+    <style>
+      .design-ideas-section {
+        padding: 72px 0 58px;
+        background: var(--bg-light, #faf8f4);
+        color: var(--heading-font-color, #0d2738);
+        overflow: hidden;
+        font-family: var(--body-font);
+      }
+
+      .design-ideas-section__head {
+        width: min(1260px, calc(100% - 32px));
+        margin: 0 auto 28px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .design-ideas-section__title {
+        margin: 0 0 8px;
+        font-family: var(--heading-font);
+        font-size: clamp(28px, 3vw, 36px);
+        line-height: 1.1;
+        font-weight: 700;
+        letter-spacing: 0;
+        color: var(--heading-font-color, #0d2738);
+      }
+
+      .design-ideas-section__subtitle {
+        margin: 0;
+        font-family: var(--body-font);
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--body-font-color, rgba(13, 39, 56, 0.75));
+      }
+
+      .design-ideas-section__link {
+        flex: 0 0 auto;
+        color: var(--secondary-color, #cca669);
+        font-family: var(--body-font);
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        transition:
+          color 180ms ease,
+          transform 180ms ease;
+      }
+
+      .design-ideas-section__link:hover {
+        color: var(--primary-color, #0d2738);
+        transform: translateX(3px);
+      }
+
+      .design-ideas-section__track {
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        padding: 16px 0 8px;
+      }
+
+      .design-ideas-section__track .owl-stage-outer {
+        overflow: visible;
+      }
+
+      .design-ideas-section__track .owl-stage {
+        display: flex;
+      }
+
+      .design-ideas-section__track .owl-item {
+        display: flex;
+      }
+
+      .design-ideas-card {
+        width: 100%;
+        text-align: center;
+      }
+
+      .design-ideas-card__image {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        border-radius: 6px;
+        box-shadow: 0 14px 30px rgba(13, 39, 56, 0.1);
+        transition:
+          transform 220ms ease,
+          box-shadow 220ms ease;
+      }
+
+      .design-ideas-card:hover .design-ideas-card__image {
+        transform: translateY(-4px);
+        box-shadow: 0 18px 36px rgba(204, 166, 105, 0.2);
+      }
+
+      .design-ideas-card__title {
+        margin: 14px 0 0;
+        font-family: var(--heading-font);
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 700;
+        letter-spacing: 0;
+        color: var(--heading-font-color, #0d2738);
+      }
+      .projects-carousel-3 .fs-36 {
+        font-size: clamp(20px, 1.75vw, 28px) !important;
+        line-height: 1.12;
+      }
+
+      .projects-carousel-3 .abs.w-50 {
+        width: 72% !important;
+      }
+
+      .projects-carousel-3 .extra-text {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .projects-carousel-3 .extra-text > div {
+        margin-right: 0 !important;
+        font-size: 12px;
+        line-height: 1.1;
+      }
+
+      @media (max-width: 991px) {
+        .projects-carousel-3 .fs-36 {
+          font-size: 26px !important;
+        }
+
+        .projects-carousel-3 .abs.w-50 {
+          width: 62% !important;
+        }
+      }
+
+      @media (max-width: 575px) {
+        .projects-carousel-3 .fs-36 {
+          font-size: 22px !important;
+        }
+
+        .projects-carousel-3 .abs.w-50 {
+          width: 74% !important;
+        }
+      }
+      @media (max-width: 768px) {
+        .design-ideas-section {
+          padding: 48px 0 42px;
+        }
+
+        .design-ideas-section__head {
+          align-items: flex-start;
+          flex-direction: column;
+          margin-bottom: 18px;
+        }
+
+        .design-ideas-section__title {
+          font-size: 26px;
+        }
+
+        .design-ideas-section__subtitle,
+        .design-ideas-section__link {
+          font-size: 13px;
+        }
+
+        .design-ideas-section__track {
+          gap: 14px;
+          padding-top: 12px;
+        }
+
+      .design-ideas-section__track .owl-stage-outer {
+        overflow: visible;
+      }
+
+        .design-ideas-card {
+          flex-basis: 168px;
+        }
+
+        .design-ideas-card__image {
+          height: 168px;
+        }
+
+        .design-ideas-card__title {
+          font-size: 13px;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -260,7 +445,7 @@
               data-wow-delay=".0s"
             >
               <h3>
-                <span class="timer" data-to="65250" data-speed="3000">0</span>+
+                <span class="timer" data-to="12500" data-speed="3000">0</span>+
               </h3>
               <p>Design Hours Completed</p>
             </div>
@@ -269,7 +454,7 @@
               data-wow-delay=".15s"
             >
               <h3>
-                <span class="timer" data-to="23160" data-speed="3000">0</span>+
+                <span class="timer" data-to="75" data-speed="3000">0</span>+
               </h3>
               <p>Satisfied Clients</p>
             </div>
@@ -278,16 +463,16 @@
               data-wow-delay=".3s"
             >
               <h3>
-                <span class="timer" data-to="150" data-speed="3000">0</span>+
+                <span class="timer" data-to="5" data-speed="3000">0</span>+
               </h3>
-              <p>Awards Winning</p>
+              <p>Awards Won</p>
             </div>
             <div
               class="about-showcase__stat de_count wow fadeInUp"
               data-wow-delay=".45s"
             >
               <h3>
-                <span class="timer" data-to="20" data-speed="3000">0</span>+
+                <span class="timer" data-to="5" data-speed="3000">0</span>+
               </h3>
               <p>Years of Design Experience</p>
             </div>
@@ -1174,7 +1359,10 @@
           </div>
         </div>
       </section> -->
-      <section aria-label="section" class="p-0 relative overflow-hidden homepage-video-section">
+      <section
+        aria-label="section"
+        class="p-0 relative overflow-hidden homepage-video-section"
+      >
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-12">
@@ -1192,7 +1380,7 @@
                     playsinline
                     preload="auto"
                     aria-label="Shivansh Square interior design showcase"
-                    style="display: block; height: auto;"
+                    style="display: block; height: auto"
                   >
                     <source src="images/shivansh square.mp4" type="video/mp4" />
                   </video>
@@ -1233,7 +1421,7 @@
             <div class="col-lg-12">
               <div
                 id="projects-carousel"
-                class="owl-carousel owl-theme owl-2-cols"
+                class="owl-carousel owl-theme projects-carousel-3"
               >
                 <div class="item">
                   <div class="hover">
@@ -1473,9 +1661,106 @@
           </div>
         </div>
       </section>
+      <section
+        class="design-ideas-section"
+        aria-labelledby="design-ideas-title"
+      >
+        <div class="design-ideas-section__head">
+          <div>
+            <h2 class="design-ideas-section__title" id="design-ideas-title">
+              Browse design ideas
+            </h2>
+            <p class="design-ideas-section__subtitle">
+              Get inspired by room type
+            </p>
+          </div>
+          <a class="design-ideas-section__link" href="projects.html"
+            >View All &rarr;</a
+          >
+        </div>
 
+        <div
+          class="design-ideas-section__track owl-carousel owl-theme design-ideas-carousel"
+          aria-label="Room design ideas"
+        >
+          <article class="design-ideas-card">
+            <img
+              class="design-ideas-card__image"
+              src="images/projects-wide/1.webp"
+              alt="Living room interior design"
+            />
+            <h3 class="design-ideas-card__title">Living Room</h3>
+          </article>
+          <article class="design-ideas-card">
+            <img
+              class="design-ideas-card__image"
+              src="images/projects-wide/2.webp"
+              alt="Modular kitchen interior design"
+            />
+            <h3 class="design-ideas-card__title">Modular Kitchen</h3>
+          </article>
+          <article class="design-ideas-card">
+            <img
+              class="design-ideas-card__image"
+              src="images/projects-wide/3.webp"
+              alt="Bedroom interior design"
+            />
+            <h3 class="design-ideas-card__title">Bedroom</h3>
+          </article>
+          <article class="design-ideas-card">
+            <img
+              class="design-ideas-card__image"
+              src="images/projects-wide/6.webp"
+              alt="Bathroom interior design"
+            />
+            <h3 class="design-ideas-card__title">Bathroom</h3>
+          </article>
+          <article class="design-ideas-card">
+            <img
+              class="design-ideas-card__image"
+              src="images/projects-wide/4.webp"
+              alt="Wardrobe interior design"
+            />
+            <h3 class="design-ideas-card__title">Wardrobe</h3>
+          </article>
+          <article class="design-ideas-card">
+            <img
+              class="design-ideas-card__image"
+              src="images/projects-wide/5.webp"
+              alt="False ceiling interior design"
+            />
+            <h3 class="design-ideas-card__title">False Ceiling</h3>
+          </article>
+          <article class="design-ideas-card">
+            <img
+              class="design-ideas-card__image"
+              src="images/services-landscape/1.webp"
+              alt="Premium living room design"
+            />
+            <h3 class="design-ideas-card__title">Living Room</h3>
+          </article>
+          <article class="design-ideas-card">
+            <img
+              class="design-ideas-card__image"
+              src="images/services-landscape/2.webp"
+              alt="Modern modular kitchen design"
+            />
+            <h3 class="design-ideas-card__title">Modular Kitchen</h3>
+          </article>
+        </div>
+      </section>
       <section class="pt-0 process-steps-section">
         <div class="container">
+          <div class="process-section-title wow fadeInUp">
+            <span>Our Process</span>
+            <h2>How It <em>Works</em></h2>
+            <p>
+              From your first call to move-in day &mdash; a seamless,
+              stress-free experience.
+            </p>
+            <div class="process-title-divider" aria-hidden="true"></div>
+          </div>
+
           <div class="row justify-content-center">
             <div
               class="col-6 col-md-3 de-step de-step-arrow wow fadeInRight"
@@ -1532,7 +1817,7 @@
           </div>
         </div>
       </section>
-      
+
       <!-- <section class="pt-0 faq-compact-section">
         <div class="container">
           <div class="row">
@@ -1752,6 +2037,22 @@
           </div>
         </div>
       </section> -->
+
+      <section class="design-visit-cta-section">
+        <div class="container">
+          <div class="design-visit-cta">
+            <div class="design-visit-cta__content">
+              <span class="design-visit-cta__kicker">Ready To Start?</span>
+              <h2>Designed to perfection.<br />Delivered on time.</h2>
+            </div>
+            <div class="design-visit-cta__action">
+              <a class="design-visit-cta__button" href="consultation.html"
+                >Book Your Free Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- content close -->
 
@@ -2028,7 +2329,6 @@
     </div>
     <!-- overlay content end -->
     <div id="site-footer"></div>
-    <script src="js/site-layout.js"></script>
 
     <!-- Javascript Files
     ================================================== -->
