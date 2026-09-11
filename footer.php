@@ -7,9 +7,7 @@
           <img class="site-footer__logo brand-logo-img" src="images/shivanshsqwhite.png" alt="Shivansh Square" />
         </a>
         <p>
-          Shivansh Square delivers turnkey interior, civil, MEP, security,
-          networking, HVAC, and workspace solutions designed for modern
-          residential and commercial environments.
+          Shivansh Square is a Mumbai and Kandivali interior design company delivering turnkey interior, civil, MEP, security, networking, HVAC, and workspace solutions for modern residential and commercial environments.
         </p>
       </div>
       <div class="site-footer__links">

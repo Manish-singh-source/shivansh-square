@@ -3,13 +3,19 @@
 
 
 <head>
-    <title>Intrio — Interior Design Website Template</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <title>Interior Design Projects in Mumbai & Kandivali | Shivansh Square</title>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Shivansh Square" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <meta content="Intrio — Interior Design Website Template" name="description" >
-    <meta content="" name="keywords" >
-    <meta content="" name="author" >
+    <meta content="View Shivansh Square interior design projects for Mumbai and Kandivali homes, offices, retail spaces, commercial fit-outs, renovations, modular kitchens, and turnkey interiors." name="description" />
+    <meta content="interior design projects Mumbai, interior portfolio Kandivali, home interior projects Mumbai, commercial interior projects Mumbai, Shivansh Square portfolio" name="keywords" />
+    <meta content="Shivansh Square" name="author" />
     <!-- CSS Files
     ================================================== -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
@@ -48,7 +54,7 @@
                         </div>
                         <div class="col-md-4">
                             <p class="mb-0 wow fadeInRight" data-wow-delay=".2s">
-                                We create inspiring interiors that combine comfort, functionality, and timeless design. Every space is thoughtfully tailored to reflect your lifestyle and needs.
+                                We create inspiring interiors in Mumbai and Kandivali that combine comfort, functionality, and timeless design. Every space is thoughtfully tailored to reflect your lifestyle and needs.
                             </p>
                         </div>
                     </div>
@@ -295,7 +301,7 @@
                 <div class="spacer-30-line"></div>
 
                 <h4>About Us</h4>
-                <p>Transform your home, office, or commercial space with professional interior design services tailored to your vision and lifestyle. Our experienced designers create customized interiors, from concept development to final styling, ensuring every space reflects beauty, functionality, and attention to detail.</p>
+                <p>Transform your home, office, or commercial space in Mumbai and Kandivali with professional interior design services tailored to your vision and lifestyle. Shivansh Square creates customized interiors from concept development to final styling, with beauty, functionality, and attention to detail.</p>
 
                 <!--
                 <div class="social-icons">

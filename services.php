@@ -3,12 +3,18 @@
 
 
 <head>
-    <title>Our Services | Interior Design, Turnkey Fit-Out & MEP Solutions</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <title>Interior Design Services in Mumbai & Kandivali | Shivansh Square</title>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Shivansh Square" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <meta content="Explore Shivansh Square services including interior design, turnkey fit-outs, civil works, electricals, HVAC, security systems, networking, workstations, furniture, flooring, lighting, acoustic panels, and commercial workspace solutions." name="description" >
-    <meta content="Shivansh Square services, interior design services, turnkey fit-out services, commercial interiors, office interiors, civil interior works, HVAC design, electrical works, security systems, networking infrastructure, modular workstations" name="keywords" >
+    <meta content="Explore interior design services in Mumbai and Kandivali by Shivansh Square, including home interiors, commercial interiors, renovation, modular kitchens, civil work, MEP, HVAC, furniture, lighting, and turnkey execution." name="description" />
+    <meta content="interior design services Mumbai, interior designers Kandivali, home interior services Mumbai, commercial interior design Mumbai, renovation Kandivali, turnkey interiors Mumbai, modular kitchen Kandivali" name="keywords" />
     <meta content="Shivansh Square" name="author" >
     <!-- CSS Files
     ================================================== -->
@@ -66,7 +72,7 @@
                         </div>
                         <div class="col-md-4">
                             <p class="mb-0 wow fadeInRight" data-wow-delay=".2s">
-                                Shivansh Square delivers complete residential, commercial, and office interior solutions with civil works, MEP, HVAC, electricals, security, networking, furniture, lighting, and workstation execution.
+                                Shivansh Square delivers complete residential, commercial, and office interior solutions in Mumbai and Kandivali with civil works, MEP, HVAC, electricals, security, networking, furniture, lighting, and workstation execution.
                             </p>
                         </div>
                     </div>
@@ -83,7 +89,7 @@
                             <h2>Home, Commercial, Renovation, and Designing Services</h2>
                         </div>
                         <div class="col-lg-5">
-                            <p class="mb-0">From dream homes to commercial spaces, renovations, and custom design work, Shivansh Square manages planning, materials, execution, and final finishing with one clear process.</p>
+                            <p class="mb-0">From dream homes in Kandivali to commercial spaces across Mumbai, Shivansh Square manages planning, materials, execution, and final finishing with one clear process.</p>
                         </div>
                     </div>
                     <div class="row g-4">
@@ -248,7 +254,7 @@
                 <div class="spacer-30-line"></div>
 
                 <h4>About Us</h4>
-                <p>Shivansh Square delivers interior design, turnkey fit-outs, civil works, MEP, HVAC, security, networking, furniture, lighting, and workspace solutions for residential, commercial, and office projects.</p>
+                <p>Shivansh Square delivers interior design, turnkey fit-outs, civil works, MEP, HVAC, security, networking, furniture, lighting, and workspace solutions for residential, commercial, and office projects in Mumbai and Kandivali.</p>
 
                 <!--
                 <div class="social-icons">

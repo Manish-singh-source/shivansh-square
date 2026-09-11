@@ -1,16 +1,34 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Intrio — Interior Design Website Template</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16" />
+    <title>Top Interior Design Company in Mumbai, Kandivali | Shivansh Square</title>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Shivansh Square" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="Intrio — Interior Design Website Template"
+      content="Shivansh Square is a top interior design company in Mumbai and Kandivali, offering home interiors, commercial interiors, renovation, modular kitchens, turnkey fit-outs, and complete execution."
       name="description"
     />
-    <meta content="" name="keywords" />
-    <meta content="" name="author" />
+    <meta content="top interior design company in Mumbai, interior designer in Kandivali, interior design company Kandivali, home interior designer Mumbai, office interior designer Mumbai, turnkey interiors Mumbai, modular kitchen Kandivali, Shivansh Square" name="keywords" />
+    <meta content="Shivansh Square" name="author" />
+    <meta content="Mumbai, Kandivali" name="geo.placename" />
+    <meta content="IN-MH" name="geo.region" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Shivansh Square",
+        "description": "Top interior design company in Mumbai and Kandivali for residential interiors, commercial interiors, renovation, modular kitchens, turnkey fit-outs, and complete execution.",
+        "areaServed": ["Mumbai", "Kandivali"],
+        "serviceType": ["Interior Design", "Home Interior Design", "Commercial Interior Design", "Turnkey Interior Fit-Out", "Renovation", "Modular Kitchen Design"]
+      }
+    </script>
     <!-- CSS Files
     ================================================== -->
     <link
@@ -31,8 +49,12 @@
       type="text/css"
     />
     <style>
+      .latest-projects-section {
+        padding-bottom: 24px;
+      }
+
       .design-ideas-section {
-        padding: 72px 0 58px;
+        padding: 24px 0 58px;
         background: var(--bg-light, #faf8f4);
         color: var(--heading-font-color, #0d2738);
         overflow: hidden;
@@ -174,8 +196,12 @@
         }
       }
       @media (max-width: 768px) {
+        .latest-projects-section {
+          padding-bottom: 18px;
+        }
+
         .design-ideas-section {
-          padding: 48px 0 42px;
+          padding: 20px 0 42px;
         }
 
         .design-ideas-section__head {
@@ -259,7 +285,7 @@
                 <div class="col-lg-12">
                   <div class="text-start">
                     <h1 id="hero-title" class="fs-sm-10vw mb-0 wow fadeInLeft">
-                      PREMIUM INTERIOR DESIGN
+                      BEAUTIFUL SPACES
                     </h1>
                   </div>
                   <div class="text-lg-end">
@@ -268,7 +294,7 @@
                       class="fs-sm-10vw mb-4 wow fadeInRight"
                       data-wow-delay=".2s"
                     >
-                      FOR MODERN SPACES
+                      MADE FOR YOU
                     </h1>
                   </div>
                 </div>
@@ -279,10 +305,9 @@
                     class="wow fadeInLeft"
                     data-wow-delay=".4s"
                   >
-                    Transform your home or workspace with our residential and
-                    commercial interior design services. We create customized
-                    interiors that combine contemporary design, smart space
-                    planning, quality materials, and lasting elegance.
+                    We design warm, elegant interiors that feel personal, practical,
+                    and easy to live in. From planning to finishing, every
+                    detail is shaped around your space and lifestyle.
                   </p>
                 </div>
               </div>
@@ -298,13 +323,13 @@
                     class="d-flex justify-content-between hero-banner-tags"
                   >
                     <div class="wow fadeInRight" data-wow-delay=".8s">
-                      PREMIUM INTERIOR DESIGN
+                      BEAUTIFUL SPACES
                     </div>
                     <div class="wow fadeInRight" data-wow-delay="1s">
-                      MODERN INTERIOR SOLUTIONS
+                      THOUGHTFUL PLANNING
                     </div>
                     <div class="wow fadeInRight" data-wow-delay="1.2s">
-                      CUSTOM INTERIOR DESIGN
+                      COMPLETE EXECUTION
                     </div>
                   </div>
                 </div>
@@ -322,10 +347,10 @@
               <!-- Slides -->
               <div
                 class="swiper-slide"
-                data-title="PREMIUM INTERIOR DESIGN"
-                data-subtitle="FOR MODERN SPACES"
-                data-description="Transform your home or workspace with our residential and commercial interior design services. We create customized interiors that combine contemporary design, smart space planning, quality materials, and lasting elegance."
-                data-tags="PREMIUM INTERIOR DESIGN|MODERN INTERIOR SOLUTIONS|CUSTOM INTERIOR DESIGN"
+                data-title="BEAUTIFUL SPACES"
+                data-subtitle="MADE FOR YOU"
+                data-description="We design warm, elegant interiors that feel personal, practical, and easy to live in. From planning to finishing, every detail is shaped around your space and lifestyle."
+                data-tags="BEAUTIFUL SPACES|THOUGHTFUL PLANNING|COMPLETE EXECUTION"
               >
                 <div
                   class="swiper-inner"
@@ -339,10 +364,10 @@
               <!-- Slides -->
               <div
                 class="swiper-slide"
-                data-title="ELEVATED INTERIORS"
-                data-subtitle="DESIGNED FOR LIVING"
-                data-description="We create premium interior designs for homes and commercial spaces, combining modern aesthetics, functional layouts, and personalized details to transform every space into a stylish, comfortable, and timeless interior."
-                data-tags="SPACE PLANNING|BESPOKE FURNITURE|REFINED FINISHES"
+                data-title="DREAM HOMES"
+                data-subtitle="DESIGNED WITH CARE"
+                data-description="Create a home that feels calm, stylish, and truly yours, with layouts, storage, materials, lighting, and finishes planned beautifully from the start."
+                data-tags="SMART LAYOUTS|CUSTOM FURNITURE|FINE FINISHES"
               >
                 <div
                   class="swiper-inner"
@@ -356,10 +381,10 @@
               <!-- Slides -->
               <div
                 class="swiper-slide"
-                data-title="TIMELESS INTERIORS"
-                data-subtitle="CRAFTED FOR YOU"
-                data-description="We design bespoke residential and commercial interiors that blend sophisticated aesthetics with everyday functionality. From concept to completion, we create thoughtfully designed spaces that reflect your lifestyle, personality, and vision."
-                data-tags="SPACE PLANNING|BESPOKE FURNITURE|REFINED FINISHES"
+                data-title="WORK SPACES"
+                data-subtitle="BUILT TO PERFORM"
+                data-description="We shape offices, retail spaces, and commercial interiors that look refined, support daily work, and create a strong impression from the moment people walk in."
+                data-tags="BRAND-LED DESIGN|WORKFLOW PLANNING|CLEAN HANDOVER"
               >
                 <div
                   class="swiper-inner"
@@ -391,14 +416,14 @@
             <div class="about-showcase__intro">
               <div class="subtitle">About Us</div>
               <h3 class="wow fadeInRight" data-wow-delay=".2s">
-                WE’RE COMMITTED TO TURNING YOUR VISION INTO BEAUTIFUL REALITY
+                A TRUSTED INTERIOR DESIGN COMPANY FOR MUMBAI HOMES AND BUSINESSES
               </h3>
               <p class="wow fadeInRight" data-wow-delay=".4s">
-                Shivansh Square is a professional interior design company
-                crafting functional, elegant residential and commercial spaces.
-                From modern home interiors to sophisticated office designs, we
-                turn your ideas into personalized spaces that reflect your
-                lifestyle and brand.
+                Shivansh Square is a professional interior design company in
+                Mumbai serving Kandivali and nearby locations with functional,
+                elegant residential and commercial interiors. From modern home
+                interiors to sophisticated office designs, we turn your ideas
+                into personalized spaces that reflect your lifestyle and brand.
               </p>
               <a
                 href="about.php"
@@ -418,11 +443,11 @@
                 <div>
                   <h3>Our Vision</h3>
                   <p>
-                    Our vision at Shivansh Square is to become a trusted,
-                    innovative interior design company known for creating
-                    distinctive, functional spaces. We turn every client's
-                    unique vision into thoughtfully planned interiors that
-                    balance aesthetics, comfort, and lasting value.
+                    Our vision at Shivansh Square is to be recognized as one of
+                    the top interior design companies in Mumbai and Kandivali,
+                    known for distinctive, functional spaces. We turn every
+                    client's unique vision into thoughtfully planned interiors
+                    that balance aesthetics, comfort, and lasting value.
                   </p>
                 </div>
               </div>
@@ -446,9 +471,10 @@
               </div>
               <p class="wow fadeInRight" data-wow-delay=".4s">
                 We create spaces that are not only visually stunning but also
-                functional and uniquely yours. Whether it’s a private residence
-                or a commercial space, our interior design services are tailored
-                to bring your vision to life with style and precision.
+                functional and uniquely yours. Whether it is a private residence
+                in Kandivali or a commercial space in Mumbai, our interior
+                design services are tailored to bring your vision to life with
+                style and precision.
               </p>
               <div class="text-end wow fadeInRight" data-wow-delay=".6s">
                 <img src="images/misc/signature.webp" class="w-150px" alt="" />
@@ -503,14 +529,15 @@
           <div class="row mb-3 g-4 align-items-center justify-content-between">
             <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
               <div class="subtitle">Our Services</div>
-              <h2 class="wow fadeInRight">INTERIOR SERVICES</h2>
+              <h2 class="wow fadeInRight">INTERIOR DESIGN SERVICES IN MUMBAI</h2>
             </div>
 
             <div class="col-lg-4">
               <p>
-                We deliver complete interior, civil, electrical, HVAC,
-                networking, security, fire-fighting, automation, and workspace
-                solutions for modern commercial and residential environments.
+                We deliver complete home interior, commercial interior, civil,
+                electrical, HVAC, networking, security, automation, and
+                workspace solutions for clients in Mumbai, Kandivali, and nearby
+                areas.
               </p>
             </div>
 
@@ -544,7 +571,7 @@
                       </div>
                       <div class="service-showcase-card__body">
                         <h3>Full Home Interior</h3>
-                        <p>Complete turnkey interior solutions for your dream home</p>
+                        <p>Complete turnkey interior solutions for Mumbai homes</p>
                         <span>View Projects <i class="fa-solid fa-arrow-right"></i></span>
                       </div>
                     </a>
@@ -558,7 +585,7 @@
                       </div>
                       <div class="service-showcase-card__body">
                         <h3>Commercial Project</h3>
-                        <p>Offices, showrooms, restaurants and retail spaces</p>
+                        <p>Offices, showrooms, restaurants, and retail spaces in Mumbai</p>
                         <span>View Projects <i class="fa-solid fa-arrow-right"></i></span>
                       </div>
                     </a>
@@ -572,7 +599,7 @@
                       </div>
                       <div class="service-showcase-card__body">
                         <h3>Renovation</h3>
-                        <p>Expert solutions to upgrade and transform your space</p>
+                        <p>Expert renovation solutions for homes and offices</p>
                         <span>View Projects <i class="fa-solid fa-arrow-right"></i></span>
                       </div>
                     </a>
@@ -728,7 +755,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="latest-projects-section">
         <div class="container">
           <div class="row mb-3 g-4 align-items-center justify-content-between">
             <div class="col-lg-4 wow fadeIn" data-wow-delay=".2s">
@@ -739,10 +766,10 @@
             </div>
             <div class="col-lg-4">
               <p>
-                Explore a curated selection of our recent interior projects,
-                where each space is thoughtfully designed to balance aesthetics
-                and function while showcasing our attention to detail and
-                timeless design approach.
+                Explore a curated selection of our recent interior projects in
+                Mumbai, where each space is thoughtfully designed to balance
+                aesthetics and function while showcasing our attention to detail
+                and timeless design approach.
               </p>
             </div>
             <div class="col-lg-4">
@@ -1006,10 +1033,10 @@
         <div class="design-ideas-section__head">
           <div>
             <h2 class="design-ideas-section__title" id="design-ideas-title">
-              Browse design ideas
+              Browse Interior Design Ideas
             </h2>
             <p class="design-ideas-section__subtitle">
-              Get inspired by room type
+              Get inspired by room type for Mumbai homes
             </p>
           </div>
           <a class="design-ideas-section__link" href="projects.php"
@@ -1025,7 +1052,7 @@
             <img
               class="design-ideas-card__image"
               src="images/projects-wide/1.webp"
-              alt="Living room interior design"
+              alt="Living room interior design in Mumbai by Shivansh Square"
             />
             <h3 class="design-ideas-card__title">Living Room</h3>
           </article>
@@ -1033,7 +1060,7 @@
             <img
               class="design-ideas-card__image"
               src="images/projects-wide/2.webp"
-              alt="Modular kitchen interior design"
+              alt="Modular kitchen interior design in Kandivali"
             />
             <h3 class="design-ideas-card__title">Modular Kitchen</h3>
           </article>
@@ -1041,7 +1068,7 @@
             <img
               class="design-ideas-card__image"
               src="images/projects-wide/3.webp"
-              alt="Bedroom interior design"
+              alt="Bedroom interior design in Mumbai"
             />
             <h3 class="design-ideas-card__title">Bedroom</h3>
           </article>
@@ -1049,7 +1076,7 @@
             <img
               class="design-ideas-card__image"
               src="images/projects-wide/6.webp"
-              alt="Bathroom interior design"
+              alt="Bathroom interior design in Mumbai"
             />
             <h3 class="design-ideas-card__title">Bathroom</h3>
           </article>
@@ -1057,7 +1084,7 @@
             <img
               class="design-ideas-card__image"
               src="images/projects-wide/4.webp"
-              alt="Wardrobe interior design"
+              alt="Wardrobe interior design in Kandivali"
             />
             <h3 class="design-ideas-card__title">Wardrobe</h3>
           </article>
@@ -1065,7 +1092,7 @@
             <img
               class="design-ideas-card__image"
               src="images/projects-wide/5.webp"
-              alt="False ceiling interior design"
+              alt="False ceiling interior design in Mumbai"
             />
             <h3 class="design-ideas-card__title">False Ceiling</h3>
           </article>
@@ -1073,7 +1100,7 @@
             <img
               class="design-ideas-card__image"
               src="images/services-landscape/1.webp"
-              alt="Premium living room design"
+              alt="Premium living room design by Mumbai interior designers"
             />
             <h3 class="design-ideas-card__title">Living Room</h3>
           </article>
@@ -1081,7 +1108,7 @@
             <img
               class="design-ideas-card__image"
               src="images/services-landscape/2.webp"
-              alt="Modern modular kitchen design"
+              alt="Modern modular kitchen design by Kandivali interior company"
             />
             <h3 class="design-ideas-card__title">Modular Kitchen</h3>
           </article>
@@ -1093,8 +1120,8 @@
             <span>Our Process</span>
             <h2>How It <em>Works</em></h2>
             <p>
-              From your first call to move-in day &mdash; a seamless,
-              stress-free experience.
+              From your first call to move-in day, our Mumbai interior design
+              team keeps planning, budgeting, execution, and handover clear.
             </p>
             <div class="process-title-divider" aria-hidden="true"></div>
           </div>

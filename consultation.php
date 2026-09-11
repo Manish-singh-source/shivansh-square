@@ -3,13 +3,19 @@
 
 
 <head>
-    <title>Consultation | Shivansh Square Interior Design</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <title>Interior Design Consultation in Mumbai & Kandivali | Shivansh Square</title>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Shivansh Square" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <meta content="Book a simple interior design consultation with Shivansh Square for homes, offices, and commercial spaces in India." name="description" >
-    <meta content="interior design consultation India, office interior design, home interior design, Shivansh Square" name="keywords" >
-    <meta content="" name="author" >
+    <meta content="Book an interior design consultation with Shivansh Square for homes, offices, and commercial spaces in Mumbai, Kandivali, and nearby areas." name="description" />
+    <meta content="interior design consultation Mumbai, interior design consultation Kandivali, home interior consultation Mumbai, office interior designer Mumbai, Shivansh Square" name="keywords" />
+    <meta content="Shivansh Square" name="author" />
     <!-- CSS Files
     ================================================== -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
@@ -435,7 +441,7 @@
                 <div class="spacer-30-line"></div>
 
                 <h4>About Us</h4>
-                <p>Shivansh Square creates practical, premium interiors for Indian homes, offices, and commercial spaces with a clear focus on planning, materials, execution, and finish quality.</p>
+                <p>Shivansh Square creates practical, premium interiors for homes, offices, and commercial spaces in Mumbai and Kandivali with a clear focus on planning, materials, execution, and finish quality.</p>
 
                 <!-- <div class="social-icons">
                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>

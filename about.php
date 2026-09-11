@@ -1,21 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>
-      About Shivansh Square | Interior Design & Turnkey Fit-Out Solutions
-    </title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16" />
+    <title>About Shivansh Square | Top Interior Design Company in Mumbai</title>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Shivansh Square" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta
-      content="Shivansh Square is a professional interior design and turnkey fit-out company delivering residential interiors, commercial interiors, civil works, HVAC, electrical, security, networking, and workspace solutions."
-      name="description"
-    />
+    <meta content="Shivansh Square is a trusted interior design company in Mumbai and Kandivali for residential interiors, commercial interiors, turnkey fit-outs, renovation, MEP, HVAC, and workspace solutions." name="description" />
     
-    <meta
-      content="Shivansh Square, interior design company, turnkey interiors, commercial interior design, residential interiors, office interiors, fit-out contractors, HVAC, electrical works, security systems"
-      name="keywords"
-    />
+    <meta content="Shivansh Square Mumbai, interior design company Mumbai, interior designer Kandivali, top interior designers in Mumbai, turnkey interiors Kandivali, home interiors Mumbai, commercial interiors Mumbai" name="keywords" />
     <meta content="Shivansh Square" name="author" />
     <!-- CSS Files
     ================================================== -->

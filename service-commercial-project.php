@@ -1,19 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Commercial Project | Shivansh Square</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16" />
+    <title>Commercial Interior Designers in Mumbai | Shivansh Square Kandivali</title>
+    <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Shivansh Square" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Commercial Project by Shivansh Square. Functional and polished commercial spaces built around brand, workflow, and customer experience." name="description" />
-    <meta content="Commercial Project, Shivansh Square, interior services, turnkey interiors, renovation, commercial interiors, designing work" name="keywords" />
+    <meta content="Commercial interior design and turnkey fit-out services in Mumbai and Kandivali for offices, showrooms, restaurants, retail stores, cabins, workstations, and customer-facing spaces." name="description" />
+    <meta content="commercial interior designer Mumbai, office interior designer Kandivali, retail interiors Mumbai, showroom interior Mumbai, turnkey commercial fit-out Mumbai, Shivansh Square" name="keywords" />
     <meta content="Shivansh Square" name="author" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
     <link href="css/plugins.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Commercial Project","provider":{"@type":"Organization","name":"Shivansh Square"},"serviceType":"Interior Services","description":"Functional and polished commercial spaces built around brand, workflow, and customer experience. Interior execution for offices, showrooms, restaurants, retail outlets, reception areas, cabins, workstations, and customer-facing spaces.","areaServed":"India"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Commercial Project","provider":{"@type":"Organization","name":"Shivansh Square"},"serviceType":"Interior Services","description":"Functional and polished commercial spaces built around brand, workflow, and customer experience. Interior execution for offices, showrooms, restaurants, retail outlets, reception areas, cabins, workstations, and customer-facing spaces.","areaServed":"Mumbai and Kandivali"}</script>
     <style>
         :root { --service-accent: #CCA669; --service-bronze: #997945; --service-navy: #0D2738; }
         .service-page { background: #FAF8F4; color: #0D2738; }
