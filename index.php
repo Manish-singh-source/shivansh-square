@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Top Interior Design Company in Mumbai, Kandivali | Shivansh Square</title>
+    <title>Best Interior Designers in Mumbai | Shivansh Square</title>
     <link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
     <link rel="shortcut icon" href="images/favicon/favicon.ico" />
@@ -12,10 +12,10 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="Shivansh Square is a top interior design company in Mumbai and Kandivali, offering home interiors, commercial interiors, renovation, modular kitchens, turnkey fit-outs, and complete execution."
+      content="Shivansh Square offers interior design and decorating in Mumbai, including home interiors, commercial interiors, renovation, modular kitchens, and turnkey execution."
       name="description"
     />
-    <meta content="top interior design company in Mumbai, interior designer in Kandivali, interior design company Kandivali, home interior designer Mumbai, office interior designer Mumbai, turnkey interiors Mumbai, modular kitchen Kandivali, Shivansh Square" name="keywords" />
+    <meta content="best interior designers in Mumbai, interior decorators in Mumbai, home interiors Mumbai, interior designer in Kandivali, commercial interiors Mumbai, turnkey interiors Mumbai, Shivansh Square" name="keywords" />
     <meta content="Shivansh Square" name="author" />
     <meta content="Mumbai, Kandivali" name="geo.placename" />
     <meta content="IN-MH" name="geo.region" />
@@ -24,7 +24,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Shivansh Square",
-        "description": "Top interior design company in Mumbai and Kandivali for residential interiors, commercial interiors, renovation, modular kitchens, turnkey fit-outs, and complete execution.",
+        "description": "Interior designers and decorators in Mumbai and Kandivali for home interiors, commercial interiors, renovation, modular kitchens, and turnkey execution.",
         "areaServed": ["Mumbai", "Kandivali"],
         "serviceType": ["Interior Design", "Home Interior Design", "Commercial Interior Design", "Turnkey Interior Fit-Out", "Renovation", "Modular Kitchen Design"]
       }

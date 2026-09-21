@@ -33,12 +33,10 @@
         <h3>Request A Quote</h3>
         <p><a href="tel:+919967064755">+91 99670 64755</a></p>
         <a href="consultation.php" class="btn-main fx-slide"><span>Request A Quote</span></a>
-        <!-- <div class="site-footer__social">
-          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-        </div> -->
+        <div class="site-footer__social">
+          <a href="https://www.instagram.com/technofra.company/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/Technofra_" aria-label="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
       </div>
     </div>
     <div class="site-footer__bottom">
